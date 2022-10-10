@@ -1,6 +1,6 @@
 # What
 
-The pigeotchi project is a tamagotchi clone to practice state, forms, and filtering in ReactJS.
+The petsite project is a tamagotchi + roguelike clone to practice state, forms, and filtering in ReactJS, and backend work in Ruby and Ruby on Rails
 
 ## Resources:
 
