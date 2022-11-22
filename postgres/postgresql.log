@@ -1,0 +1,98 @@
+2022-11-14 16:51:49.720 EST [55366] LOG:  starting PostgreSQL 15.1 on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2022-11-14 16:51:49.723 EST [55366] LOG:  listening on IPv6 address "::1", port 5432
+2022-11-14 16:51:49.723 EST [55366] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-11-14 16:51:49.725 EST [55366] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-11-14 16:51:49.726 EST [55369] LOG:  database system was shut down at 2022-11-14 16:51:49 EST
+2022-11-14 16:51:49.728 EST [55366] LOG:  database system is ready to accept connections
+2022-11-14 16:56:49.728 EST [55367] LOG:  checkpoint starting: time
+2022-11-14 17:01:19.029 EST [55367] LOG:  checkpoint complete: wrote 2850 buffers (17.4%); 0 WAL file(s) added, 0 removed, 1 recycled; write=269.290 s, sync=0.006 s, total=269.302 s; sync files=770, longest=0.001 s, average=0.001 s; distance=13397 kB, estimate=13397 kB
+2022-11-15 11:50:17.102 EST [55367] LOG:  checkpoint starting: time
+2022-11-15 11:50:17.618 EST [55367] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.510 s, sync=0.001 s, total=0.517 s; sync files=5, longest=0.001 s, average=0.001 s; distance=2 kB, estimate=12057 kB
+2022-11-16 14:20:37.245 EST [55367] LOG:  checkpoint starting: time
+2022-11-16 14:20:37.761 EST [55367] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.510 s, sync=0.002 s, total=0.516 s; sync files=5, longest=0.002 s, average=0.001 s; distance=2 kB, estimate=10852 kB
+2022-11-16 14:25:37.757 EST [55367] LOG:  checkpoint starting: time
+2022-11-16 14:25:38.070 EST [55367] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.306 s, sync=0.001 s, total=0.313 s; sync files=4, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=9767 kB
+2022-11-16 14:35:37.060 EST [55367] LOG:  checkpoint starting: time
+2022-11-16 14:35:37.370 EST [55367] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.305 s, sync=0.001 s, total=0.311 s; sync files=4, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=8790 kB
+2022-11-16 14:55:37.378 EST [55367] LOG:  checkpoint starting: time
+2022-11-16 14:55:37.689 EST [55367] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.305 s, sync=0.001 s, total=0.312 s; sync files=4, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=7911 kB
+2022-11-16 15:00:37.687 EST [55367] LOG:  checkpoint starting: time
+2022-11-16 15:00:39.014 EST [55367] LOG:  checkpoint complete: wrote 14 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.321 s, sync=0.001 s, total=1.327 s; sync files=11, longest=0.001 s, average=0.001 s; distance=3 kB, estimate=7120 kB
+2022-11-16 17:05:39.998 EST [55367] LOG:  checkpoint starting: time
+2022-11-16 17:05:40.924 EST [55367] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.919 s, sync=0.001 s, total=0.927 s; sync files=10, longest=0.001 s, average=0.001 s; distance=3 kB, estimate=6409 kB
+2022-11-17 08:17:05.231 EST [24738] FATAL:  role "tamaroot" does not exist
+2022-11-17 10:03:48.128 EST [55367] LOG:  checkpoint starting: time
+2022-11-17 10:03:48.447 EST [55367] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.311 s, sync=0.001 s, total=0.320 s; sync files=4, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=5768 kB
+2022-11-17 10:13:48.447 EST [55367] LOG:  checkpoint starting: time
+2022-11-17 10:13:49.372 EST [55367] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.918 s, sync=0.002 s, total=0.925 s; sync files=10, longest=0.001 s, average=0.001 s; distance=3 kB, estimate=5191 kB
+2022-11-17 10:23:48.383 EST [55367] LOG:  checkpoint starting: time
+2022-11-17 10:23:48.694 EST [55367] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.306 s, sync=0.001 s, total=0.311 s; sync files=4, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=4672 kB
+2022-11-17 10:28:48.695 EST [55367] LOG:  checkpoint starting: time
+2022-11-17 10:28:49.613 EST [55367] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.913 s, sync=0.001 s, total=0.918 s; sync files=10, longest=0.001 s, average=0.001 s; distance=3 kB, estimate=4205 kB
+2022-11-17 10:43:48.629 EST [55367] LOG:  checkpoint starting: time
+2022-11-17 10:43:49.753 EST [55367] LOG:  checkpoint complete: wrote 12 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.118 s, sync=0.003 s, total=1.125 s; sync files=12, longest=0.001 s, average=0.001 s; distance=4 kB, estimate=3785 kB
+2022-11-17 11:23:48.763 EST [55367] LOG:  checkpoint starting: time
+2022-11-17 11:23:49.886 EST [55367] LOG:  checkpoint complete: wrote 12 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.116 s, sync=0.002 s, total=1.123 s; sync files=12, longest=0.001 s, average=0.001 s; distance=5 kB, estimate=3407 kB
+2022-11-17 17:11:28.691 EST [55367] LOG:  checkpoint starting: time
+2022-11-17 17:11:28.813 EST [55367] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.112 s, sync=0.001 s, total=0.124 s; sync files=2, longest=0.001 s, average=0.001 s; distance=3 kB, estimate=3067 kB
+2022-11-17 17:51:28.808 EST [55367] LOG:  checkpoint starting: time
+2022-11-17 17:51:28.919 EST [55367] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.106 s, sync=0.001 s, total=0.113 s; sync files=2, longest=0.001 s, average=0.001 s; distance=2 kB, estimate=2760 kB
+2022-11-17 17:56:28.922 EST [55367] LOG:  checkpoint starting: time
+2022-11-17 17:56:29.030 EST [55367] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.102 s, sync=0.001 s, total=0.109 s; sync files=2, longest=0.001 s, average=0.001 s; distance=3 kB, estimate=2485 kB
+2022-11-17 18:01:28.033 EST [55367] LOG:  checkpoint starting: time
+2022-11-17 18:01:28.141 EST [55367] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.103 s, sync=0.001 s, total=0.108 s; sync files=2, longest=0.001 s, average=0.001 s; distance=3 kB, estimate=2236 kB
+2022-11-17 19:22:25.469 EST [55367] LOG:  checkpoint starting: time
+2022-11-17 19:22:25.578 EST [55367] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.104 s, sync=0.002 s, total=0.110 s; sync files=2, longest=0.001 s, average=0.001 s; distance=3 kB, estimate=2013 kB
+2022-11-17 19:27:25.581 EST [55367] LOG:  checkpoint starting: time
+2022-11-17 19:27:25.687 EST [55367] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.103 s, sync=0.001 s, total=0.106 s; sync files=2, longest=0.001 s, average=0.001 s; distance=5 kB, estimate=1812 kB
+2022-11-17 20:40:16.367 EST [55367] LOG:  checkpoint starting: time
+2022-11-17 20:40:18.001 EST [55367] LOG:  checkpoint complete: wrote 17 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.628 s, sync=0.001 s, total=1.635 s; sync files=7, longest=0.001 s, average=0.001 s; distance=88 kB, estimate=1640 kB
+2022-11-17 21:00:16.986 EST [55367] LOG:  checkpoint starting: time
+2022-11-17 21:00:17.096 EST [55367] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.105 s, sync=0.001 s, total=0.111 s; sync files=2, longest=0.001 s, average=0.001 s; distance=5 kB, estimate=1476 kB
+2022-11-17 21:05:16.092 EST [55367] LOG:  checkpoint starting: time
+2022-11-17 21:05:16.212 EST [55367] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.103 s, sync=0.001 s, total=0.121 s; sync files=2, longest=0.001 s, average=0.001 s; distance=6 kB, estimate=1329 kB
+2022-11-17 21:15:16.206 EST [55367] LOG:  checkpoint starting: time
+2022-11-17 21:15:16.934 EST [55367] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.721 s, sync=0.001 s, total=0.730 s; sync files=6, longest=0.001 s, average=0.001 s; distance=47 kB, estimate=1201 kB
+2022-11-17 21:40:16.939 EST [55367] LOG:  checkpoint starting: time
+2022-11-17 21:40:17.157 EST [55367] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.212 s, sync=0.001 s, total=0.219 s; sync files=3, longest=0.001 s, average=0.001 s; distance=3 kB, estimate=1081 kB
+2022-11-18 08:37:18.896 EST [55367] LOG:  checkpoint starting: time
+2022-11-18 08:37:19.011 EST [55367] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.108 s, sync=0.002 s, total=0.117 s; sync files=2, longest=0.001 s, average=0.001 s; distance=3 kB, estimate=973 kB
+2022-11-18 08:57:18.983 EST [55367] LOG:  checkpoint starting: time
+2022-11-18 08:57:19.095 EST [55367] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.105 s, sync=0.001 s, total=0.114 s; sync files=2, longest=0.001 s, average=0.001 s; distance=3 kB, estimate=876 kB
+2022-11-18 09:02:18.095 EST [55367] LOG:  checkpoint starting: time
+2022-11-18 09:02:18.203 EST [55367] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.103 s, sync=0.001 s, total=0.108 s; sync files=2, longest=0.001 s, average=0.001 s; distance=3 kB, estimate=789 kB
+2022-11-18 09:07:18.198 EST [55367] LOG:  checkpoint starting: time
+2022-11-18 09:07:18.306 EST [55367] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.103 s, sync=0.001 s, total=0.111 s; sync files=1, longest=0.001 s, average=0.001 s; distance=3 kB, estimate=710 kB
+2022-11-18 09:12:18.300 EST [55367] LOG:  checkpoint starting: time
+2022-11-18 09:12:18.405 EST [55367] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.103 s, sync=0.001 s, total=0.106 s; sync files=2, longest=0.001 s, average=0.001 s; distance=3 kB, estimate=640 kB
+2022-11-18 09:17:18.399 EST [55367] LOG:  checkpoint starting: time
+2022-11-18 09:17:18.507 EST [55367] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.103 s, sync=0.001 s, total=0.109 s; sync files=1, longest=0.001 s, average=0.001 s; distance=3 kB, estimate=576 kB
+2022-11-18 09:22:18.500 EST [55367] LOG:  checkpoint starting: time
+2022-11-18 09:22:18.609 EST [55367] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.103 s, sync=0.001 s, total=0.110 s; sync files=2, longest=0.001 s, average=0.001 s; distance=4 kB, estimate=519 kB
+2022-11-18 09:27:18.642 EST [55367] LOG:  checkpoint starting: time
+2022-11-18 09:27:18.750 EST [55367] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.103 s, sync=0.001 s, total=0.110 s; sync files=2, longest=0.001 s, average=0.001 s; distance=4 kB, estimate=467 kB
+2022-11-18 09:37:18.757 EST [55367] LOG:  checkpoint starting: time
+2022-11-18 09:37:18.869 EST [55367] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.105 s, sync=0.001 s, total=0.114 s; sync files=2, longest=0.001 s, average=0.001 s; distance=4 kB, estimate=421 kB
+2022-11-18 09:57:18.876 EST [55367] LOG:  checkpoint starting: time
+2022-11-18 09:57:18.986 EST [55367] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.104 s, sync=0.001 s, total=0.111 s; sync files=2, longest=0.001 s, average=0.001 s; distance=5 kB, estimate=379 kB
+2022-11-18 10:02:18.984 EST [55367] LOG:  checkpoint starting: time
+2022-11-18 10:02:19.909 EST [55367] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.919 s, sync=0.001 s, total=0.925 s; sync files=5, longest=0.001 s, average=0.001 s; distance=58 kB, estimate=347 kB
+2022-11-18 12:37:19.230 EST [55367] LOG:  checkpoint starting: time
+2022-11-18 12:37:19.555 EST [55367] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.317 s, sync=0.001 s, total=0.327 s; sync files=4, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=313 kB
+2022-11-18 12:42:19.566 EST [55367] LOG:  checkpoint starting: time
+2022-11-18 12:42:19.891 EST [55367] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.317 s, sync=0.001 s, total=0.326 s; sync files=4, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=282 kB
+2022-11-18 12:47:19.933 EST [55367] LOG:  checkpoint starting: time
+2022-11-18 12:47:20.044 EST [55367] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.105 s, sync=0.001 s, total=0.113 s; sync files=1, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=253 kB
+2022-11-18 13:12:19.119 EST [55367] LOG:  checkpoint starting: time
+2022-11-18 13:12:20.045 EST [55367] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.919 s, sync=0.002 s, total=0.927 s; sync files=10, longest=0.001 s, average=0.001 s; distance=10 kB, estimate=229 kB
+2022-11-18 13:47:19.222 EST [55367] LOG:  checkpoint starting: time
+2022-11-18 13:47:20.856 EST [55367] LOG:  checkpoint complete: wrote 17 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.627 s, sync=0.002 s, total=1.635 s; sync files=15, longest=0.001 s, average=0.001 s; distance=55 kB, estimate=212 kB
+2022-11-18 13:52:19.868 EST [55367] LOG:  checkpoint starting: time
+2022-11-18 13:52:19.976 EST [55367] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.103 s, sync=0.001 s, total=0.111 s; sync files=2, longest=0.001 s, average=0.001 s; distance=4 kB, estimate=191 kB
+2022-11-18 18:20:10.092 EST [55366] LOG:  received fast shutdown request
+2022-11-18 18:20:10.092 EST [55366] LOG:  aborting any active transactions
+2022-11-18 18:20:10.095 EST [55366] LOG:  background worker "logical replication launcher" (PID 55372) exited with exit code 1
+2022-11-18 18:20:10.096 EST [55367] LOG:  shutting down
+2022-11-18 18:20:10.097 EST [55367] LOG:  checkpoint starting: shutdown immediate
+2022-11-18 18:20:10.103 EST [55367] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.001 s, total=0.008 s; sync files=1, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=172 kB
+2022-11-18 18:20:10.116 EST [55366] LOG:  database system is shut down

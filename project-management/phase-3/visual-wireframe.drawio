@@ -1,303 +1,303 @@
-<mxfile host="app.diagrams.net" modified="2022-10-24T18:47:46.380Z" agent="5.0 (Macintosh)" etag="TM5PgwzMJEqCNJN_fd9B" version="20.5.1" type="github" pages="5">
-  <diagram name="Starting Page" id="03018318-947c-dd8e-b7a3-06fadd420f32">
-    <mxGraphModel dx="1072" dy="1042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="677b7b8949515195-1" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="20" width="1060" height="810" as="geometry" />
-        </mxCell>
-        <mxCell id="677b7b8949515195-2" value="LOGO" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=28;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="60" width="190" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="677b7b8949515195-9" value="" style="line;strokeWidth=1;html=1;rounded=0;shadow=0;labelBackgroundColor=none;fillColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="20" y="140" width="1060" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="677b7b8949515195-10" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="30" y="160" width="1040" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="677b7b8949515195-11" value="New Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="330" y="175" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="677b7b8949515195-12" value="Load Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="477" y="175" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="677b7b8949515195-13" value="Save Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="623" y="175" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="677b7b8949515195-14" value="Options" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="770" y="175" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="677b7b8949515195-15" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;Short history of Rogue &lt;br&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui.&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;verticalAlign=top;spacing=10;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="640" width="580" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="677b7b8949515195-16" value="Game Board area Placeholder Image" style="verticalLabelPosition=middle;shadow=0;dashed=0;align=center;html=1;verticalAlign=middle;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;comic=1;labelPosition=center;" parent="1" vertex="1">
-          <mxGeometry x="250" y="230" width="580" height="400" as="geometry" />
-        </mxCell>
-        <mxCell id="677b7b8949515195-25" value="How to play" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="840" y="230" width="230" height="400" as="geometry" />
-        </mxCell>
-        <mxCell id="677b7b8949515195-26" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="840" y="640" width="230" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="677b7b8949515195-42" value="External Links" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="860" y="653" width="170" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="MtA1x5U0qlpor4KUaxFX-1" value="Rogue" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="280" y="70" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="u73gUDPw2i6b_FhPV3wI-1" value="Credits&lt;br&gt;&lt;div&gt;github repo&lt;/div&gt;&lt;div&gt;LinkedIns&lt;br&gt;&lt;/div&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="860" y="685" width="170" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="yjWzOJ8J6eFaMTqtYGgy-1" value="Inventory Placeholder" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="230" width="230" height="570" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="8gcqsWrhAlYrHcI_aeLw" name="During Play">
-    <mxGraphModel dx="1072" dy="1042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="bI1N6Jz-fYEOYebAlLPC-1" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;comic=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="20" width="1060" height="810" as="geometry" />
-        </mxCell>
-        <mxCell id="bI1N6Jz-fYEOYebAlLPC-2" value="LOGO" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=28;align=center;comic=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="60" width="190" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="bI1N6Jz-fYEOYebAlLPC-7" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="230" width="200" height="590" as="geometry" />
-        </mxCell>
-        <mxCell id="bI1N6Jz-fYEOYebAlLPC-8" value="" style="line;strokeWidth=1;html=1;rounded=0;shadow=0;labelBackgroundColor=none;fillColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;align=center;comic=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="140" width="1060" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="bI1N6Jz-fYEOYebAlLPC-9" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="160" width="1040" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="bI1N6Jz-fYEOYebAlLPC-14" value="History of game actions" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;verticalAlign=top;spacing=10;comic=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="640" width="580" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="bI1N6Jz-fYEOYebAlLPC-15" value="Game Board Area" style="verticalLabelPosition=middle;shadow=0;dashed=0;align=center;html=1;verticalAlign=middle;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;comic=1;labelPosition=center;" vertex="1" parent="1">
-          <mxGeometry x="250" y="230" width="580" height="400" as="geometry" />
-        </mxCell>
-        <mxCell id="bI1N6Jz-fYEOYebAlLPC-16" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="230" width="230" height="400" as="geometry" />
-        </mxCell>
-        <mxCell id="bI1N6Jz-fYEOYebAlLPC-17" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="640" width="230" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="bI1N6Jz-fYEOYebAlLPC-18" value="Inventory (if we get that far)" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="40" y="250" width="170" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="bI1N6Jz-fYEOYebAlLPC-33" value="External Links" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="860" y="653" width="170" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="bI1N6Jz-fYEOYebAlLPC-39" value="How to play" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="850" y="260" width="170" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="bI1N6Jz-fYEOYebAlLPC-40" value="Rogue" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="280" y="70" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3tMZWmD8n9W2RvVIri14-1" value="Credits&lt;br&gt;&lt;div&gt;github repo&lt;/div&gt;&lt;div&gt;LinkedIns&lt;br&gt;&lt;/div&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="860" y="685" width="170" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="wJ0HoBK-MpjGunqqP_aH-1" value="New Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="330" y="175" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="wJ0HoBK-MpjGunqqP_aH-2" value="Load Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="477" y="175" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="wJ0HoBK-MpjGunqqP_aH-3" value="Save Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="623" y="175" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="wJ0HoBK-MpjGunqqP_aH-4" value="Options" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1">
-          <mxGeometry x="770" y="175" width="60" height="20" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram name="Options" id="_dfubeYZmg95CYRQrs_m">
-    <mxGraphModel dx="1072" dy="1042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="i5ganBNxl7puiaIQph1v-0" />
-        <mxCell id="i5ganBNxl7puiaIQph1v-1" parent="i5ganBNxl7puiaIQph1v-0" />
-        <mxCell id="i5ganBNxl7puiaIQph1v-2" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;comic=1;" vertex="1" parent="i5ganBNxl7puiaIQph1v-1">
-          <mxGeometry x="20" y="20" width="1060" height="810" as="geometry" />
-        </mxCell>
-        <mxCell id="i5ganBNxl7puiaIQph1v-3" value="LOGO" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=28;align=center;comic=1;" vertex="1" parent="i5ganBNxl7puiaIQph1v-1">
-          <mxGeometry x="40" y="60" width="190" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="i5ganBNxl7puiaIQph1v-4" value="Inventory Placeholder Image" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="i5ganBNxl7puiaIQph1v-1">
-          <mxGeometry x="30" y="230" width="200" height="590" as="geometry" />
-        </mxCell>
-        <mxCell id="i5ganBNxl7puiaIQph1v-5" value="" style="line;strokeWidth=1;html=1;rounded=0;shadow=0;labelBackgroundColor=none;fillColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;align=center;comic=1;" vertex="1" parent="i5ganBNxl7puiaIQph1v-1">
-          <mxGeometry x="20" y="140" width="1060" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="i5ganBNxl7puiaIQph1v-6" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="i5ganBNxl7puiaIQph1v-1">
-          <mxGeometry x="30" y="160" width="1040" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="i5ganBNxl7puiaIQph1v-7" value="History of rogue" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;verticalAlign=top;spacing=10;comic=1;" vertex="1" parent="i5ganBNxl7puiaIQph1v-1">
-          <mxGeometry x="250" y="640" width="580" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="i5ganBNxl7puiaIQph1v-8" value="&lt;div&gt;Entity count&lt;br&gt;&lt;/div&gt;&lt;div&gt;Checkboxes for bones files&lt;/div&gt;&lt;div&gt;Delete or Unload bones files&lt;br&gt;&lt;/div&gt;&lt;div&gt;set custom emoji&lt;/div&gt;&lt;div&gt;set player&#39;s name&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=middle;shadow=0;dashed=0;align=center;html=1;verticalAlign=middle;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;comic=1;labelPosition=center;" vertex="1" parent="i5ganBNxl7puiaIQph1v-1">
-          <mxGeometry x="250" y="230" width="580" height="400" as="geometry" />
-        </mxCell>
-        <mxCell id="i5ganBNxl7puiaIQph1v-9" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="i5ganBNxl7puiaIQph1v-1">
-          <mxGeometry x="840" y="230" width="230" height="400" as="geometry" />
-        </mxCell>
-        <mxCell id="i5ganBNxl7puiaIQph1v-10" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="i5ganBNxl7puiaIQph1v-1">
-          <mxGeometry x="840" y="640" width="230" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="i5ganBNxl7puiaIQph1v-12" value="External Links" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="i5ganBNxl7puiaIQph1v-1">
-          <mxGeometry x="860" y="653" width="170" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="i5ganBNxl7puiaIQph1v-13" value="How to play" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="i5ganBNxl7puiaIQph1v-1">
-          <mxGeometry x="850" y="260" width="170" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="i5ganBNxl7puiaIQph1v-14" value="Rogue" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="i5ganBNxl7puiaIQph1v-1">
-          <mxGeometry x="280" y="70" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="i5ganBNxl7puiaIQph1v-15" value="Credits&lt;br&gt;&lt;div&gt;github repo&lt;/div&gt;&lt;div&gt;LinkedIns&lt;br&gt;&lt;/div&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="i5ganBNxl7puiaIQph1v-1">
-          <mxGeometry x="860" y="685" width="170" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="i5ganBNxl7puiaIQph1v-16" value="New Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="i5ganBNxl7puiaIQph1v-1">
-          <mxGeometry x="330" y="175" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="i5ganBNxl7puiaIQph1v-17" value="Load Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="i5ganBNxl7puiaIQph1v-1">
-          <mxGeometry x="477" y="175" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="i5ganBNxl7puiaIQph1v-18" value="Save Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="i5ganBNxl7puiaIQph1v-1">
-          <mxGeometry x="623" y="175" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="i5ganBNxl7puiaIQph1v-19" value="Options" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="i5ganBNxl7puiaIQph1v-1">
-          <mxGeometry x="770" y="175" width="60" height="20" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram name="Save Game" id="bJ3EfH7VleJjNvOEZ6rp">
-    <mxGraphModel dx="1072" dy="1042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="1cClHrK3Kd9biMGtf6Ir-0" />
-        <mxCell id="1cClHrK3Kd9biMGtf6Ir-1" parent="1cClHrK3Kd9biMGtf6Ir-0" />
-        <mxCell id="1cClHrK3Kd9biMGtf6Ir-2" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;comic=1;" vertex="1" parent="1cClHrK3Kd9biMGtf6Ir-1">
-          <mxGeometry x="20" y="20" width="1060" height="810" as="geometry" />
-        </mxCell>
-        <mxCell id="1cClHrK3Kd9biMGtf6Ir-3" value="LOGO" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=28;align=center;comic=1;" vertex="1" parent="1cClHrK3Kd9biMGtf6Ir-1">
-          <mxGeometry x="40" y="60" width="190" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="1cClHrK3Kd9biMGtf6Ir-4" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="1cClHrK3Kd9biMGtf6Ir-1">
-          <mxGeometry x="30" y="230" width="200" height="590" as="geometry" />
-        </mxCell>
-        <mxCell id="1cClHrK3Kd9biMGtf6Ir-5" value="" style="line;strokeWidth=1;html=1;rounded=0;shadow=0;labelBackgroundColor=none;fillColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;align=center;comic=1;" vertex="1" parent="1cClHrK3Kd9biMGtf6Ir-1">
-          <mxGeometry x="20" y="140" width="1060" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="1cClHrK3Kd9biMGtf6Ir-6" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="1cClHrK3Kd9biMGtf6Ir-1">
-          <mxGeometry x="30" y="160" width="1040" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="1cClHrK3Kd9biMGtf6Ir-7" value="History of game actions" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;verticalAlign=top;spacing=10;comic=1;" vertex="1" parent="1cClHrK3Kd9biMGtf6Ir-1">
-          <mxGeometry x="250" y="640" width="580" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="1cClHrK3Kd9biMGtf6Ir-8" value="feedback that the game is saved" style="verticalLabelPosition=middle;shadow=0;dashed=0;align=center;html=1;verticalAlign=middle;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;comic=1;labelPosition=center;" vertex="1" parent="1cClHrK3Kd9biMGtf6Ir-1">
-          <mxGeometry x="250" y="230" width="580" height="400" as="geometry" />
-        </mxCell>
-        <mxCell id="1cClHrK3Kd9biMGtf6Ir-9" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="1cClHrK3Kd9biMGtf6Ir-1">
-          <mxGeometry x="840" y="230" width="230" height="400" as="geometry" />
-        </mxCell>
-        <mxCell id="1cClHrK3Kd9biMGtf6Ir-10" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="1cClHrK3Kd9biMGtf6Ir-1">
-          <mxGeometry x="840" y="640" width="230" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="1cClHrK3Kd9biMGtf6Ir-11" value="Inventory (if we get that far)" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1cClHrK3Kd9biMGtf6Ir-1">
-          <mxGeometry x="40" y="250" width="170" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="1cClHrK3Kd9biMGtf6Ir-12" value="External Links" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1cClHrK3Kd9biMGtf6Ir-1">
-          <mxGeometry x="860" y="653" width="170" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="1cClHrK3Kd9biMGtf6Ir-13" value="How to play" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1cClHrK3Kd9biMGtf6Ir-1">
-          <mxGeometry x="850" y="260" width="170" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="1cClHrK3Kd9biMGtf6Ir-14" value="Rogue" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1cClHrK3Kd9biMGtf6Ir-1">
-          <mxGeometry x="280" y="70" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="1cClHrK3Kd9biMGtf6Ir-15" value="Credits&lt;br&gt;&lt;div&gt;github repo&lt;/div&gt;&lt;div&gt;LinkedIns&lt;br&gt;&lt;/div&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1cClHrK3Kd9biMGtf6Ir-1">
-          <mxGeometry x="860" y="685" width="170" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="1cClHrK3Kd9biMGtf6Ir-16" value="New Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1cClHrK3Kd9biMGtf6Ir-1">
-          <mxGeometry x="330" y="175" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="1cClHrK3Kd9biMGtf6Ir-17" value="Load Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1cClHrK3Kd9biMGtf6Ir-1">
-          <mxGeometry x="477" y="175" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="1cClHrK3Kd9biMGtf6Ir-18" value="Save Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1cClHrK3Kd9biMGtf6Ir-1">
-          <mxGeometry x="623" y="175" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="1cClHrK3Kd9biMGtf6Ir-19" value="Options" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="1cClHrK3Kd9biMGtf6Ir-1">
-          <mxGeometry x="770" y="175" width="60" height="20" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram name="Load Game" id="72-gwtNT-dHhc7MaiIMS">
-    <mxGraphModel dx="1072" dy="1042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-0" />
-        <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-1" parent="r1zOQ3qdiibTc4OcZ8Vc-0" />
-        <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-2" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;comic=1;" vertex="1" parent="r1zOQ3qdiibTc4OcZ8Vc-1">
-          <mxGeometry x="20" y="20" width="1060" height="810" as="geometry" />
-        </mxCell>
-        <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-3" value="LOGO" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=28;align=center;comic=1;" vertex="1" parent="r1zOQ3qdiibTc4OcZ8Vc-1">
-          <mxGeometry x="40" y="60" width="190" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-4" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="r1zOQ3qdiibTc4OcZ8Vc-1">
-          <mxGeometry x="30" y="230" width="200" height="590" as="geometry" />
-        </mxCell>
-        <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-5" value="" style="line;strokeWidth=1;html=1;rounded=0;shadow=0;labelBackgroundColor=none;fillColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;align=center;comic=1;" vertex="1" parent="r1zOQ3qdiibTc4OcZ8Vc-1">
-          <mxGeometry x="20" y="140" width="1060" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-6" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="r1zOQ3qdiibTc4OcZ8Vc-1">
-          <mxGeometry x="30" y="160" width="1040" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-7" value="History of game actions" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;verticalAlign=top;spacing=10;comic=1;" vertex="1" parent="r1zOQ3qdiibTc4OcZ8Vc-1">
-          <mxGeometry x="250" y="640" width="580" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-8" value="List of saved games to pick from" style="verticalLabelPosition=middle;shadow=0;dashed=0;align=center;html=1;verticalAlign=middle;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;comic=1;labelPosition=center;" vertex="1" parent="r1zOQ3qdiibTc4OcZ8Vc-1">
-          <mxGeometry x="250" y="230" width="580" height="400" as="geometry" />
-        </mxCell>
-        <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-9" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="r1zOQ3qdiibTc4OcZ8Vc-1">
-          <mxGeometry x="840" y="230" width="230" height="400" as="geometry" />
-        </mxCell>
-        <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-10" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" vertex="1" parent="r1zOQ3qdiibTc4OcZ8Vc-1">
-          <mxGeometry x="840" y="640" width="230" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-11" value="Inventory (if we get that far)" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="r1zOQ3qdiibTc4OcZ8Vc-1">
-          <mxGeometry x="40" y="250" width="170" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-12" value="External Links" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="r1zOQ3qdiibTc4OcZ8Vc-1">
-          <mxGeometry x="860" y="653" width="170" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-13" value="How to play" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="r1zOQ3qdiibTc4OcZ8Vc-1">
-          <mxGeometry x="850" y="260" width="170" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-14" value="Rogue" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="r1zOQ3qdiibTc4OcZ8Vc-1">
-          <mxGeometry x="280" y="70" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-15" value="Credits&lt;br&gt;&lt;div&gt;github repo&lt;/div&gt;&lt;div&gt;LinkedIns&lt;br&gt;&lt;/div&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="r1zOQ3qdiibTc4OcZ8Vc-1">
-          <mxGeometry x="860" y="685" width="170" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-16" value="New Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="r1zOQ3qdiibTc4OcZ8Vc-1">
-          <mxGeometry x="330" y="175" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-17" value="Load Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="r1zOQ3qdiibTc4OcZ8Vc-1">
-          <mxGeometry x="477" y="175" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-18" value="Save Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana;" vertex="1" parent="r1zOQ3qdiibTc4OcZ8Vc-1">
-          <mxGeometry x="623" y="175" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-19" value="Options" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="r1zOQ3qdiibTc4OcZ8Vc-1">
-          <mxGeometry x="770" y="175" width="60" height="20" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="65bd71144e" pages="5">
+    <diagram name="Starting Page" id="03018318-947c-dd8e-b7a3-06fadd420f32">
+        <mxGraphModel dx="1066" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="677b7b8949515195-1" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="20" width="1060" height="810" as="geometry"/>
+                </mxCell>
+                <mxCell id="677b7b8949515195-2" value="LOGO" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=28;align=center;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="60" width="190" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="677b7b8949515195-9" value="" style="line;strokeWidth=1;html=1;rounded=0;shadow=0;labelBackgroundColor=none;fillColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;align=center;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="140" width="1060" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="677b7b8949515195-10" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="160" width="1040" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="677b7b8949515195-11" value="New Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
+                    <mxGeometry x="330" y="175" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="677b7b8949515195-12" value="Load Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
+                    <mxGeometry x="477" y="175" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="677b7b8949515195-13" value="Save Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
+                    <mxGeometry x="623" y="175" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="677b7b8949515195-14" value="Options" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
+                    <mxGeometry x="770" y="175" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="677b7b8949515195-15" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;Short history of Rogue &lt;br&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui.&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;verticalAlign=top;spacing=10;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="640" width="580" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="677b7b8949515195-16" value="Game Board area Placeholder Image" style="verticalLabelPosition=middle;shadow=0;dashed=0;align=center;html=1;verticalAlign=middle;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;comic=1;labelPosition=center;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="230" width="580" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="677b7b8949515195-25" value="How to play" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="230" width="230" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="677b7b8949515195-26" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="640" width="230" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="677b7b8949515195-42" value="External Links" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
+                    <mxGeometry x="860" y="653" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="MtA1x5U0qlpor4KUaxFX-1" value="Rogue" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
+                    <mxGeometry x="280" y="70" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="u73gUDPw2i6b_FhPV3wI-1" value="Credits&lt;br&gt;&lt;div&gt;github repo&lt;/div&gt;&lt;div&gt;LinkedIns&lt;br&gt;&lt;/div&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
+                    <mxGeometry x="860" y="685" width="170" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="yjWzOJ8J6eFaMTqtYGgy-1" value="Inventory Placeholder" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="230" width="230" height="570" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="8gcqsWrhAlYrHcI_aeLw" name="During Play">
+        <mxGraphModel dx="1066" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="bI1N6Jz-fYEOYebAlLPC-1" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="20" width="1060" height="810" as="geometry"/>
+                </mxCell>
+                <mxCell id="bI1N6Jz-fYEOYebAlLPC-2" value="LOGO" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=28;align=center;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="60" width="190" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="bI1N6Jz-fYEOYebAlLPC-7" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="230" width="200" height="590" as="geometry"/>
+                </mxCell>
+                <mxCell id="bI1N6Jz-fYEOYebAlLPC-8" value="" style="line;strokeWidth=1;html=1;rounded=0;shadow=0;labelBackgroundColor=none;fillColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;align=center;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="140" width="1060" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="bI1N6Jz-fYEOYebAlLPC-9" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="160" width="1040" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="bI1N6Jz-fYEOYebAlLPC-14" value="History of game actions" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;verticalAlign=top;spacing=10;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="640" width="580" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="bI1N6Jz-fYEOYebAlLPC-15" value="Game Board Area" style="verticalLabelPosition=middle;shadow=0;dashed=0;align=center;html=1;verticalAlign=middle;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;comic=1;labelPosition=center;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="230" width="580" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="bI1N6Jz-fYEOYebAlLPC-16" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="230" width="230" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="bI1N6Jz-fYEOYebAlLPC-17" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="640" width="230" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="bI1N6Jz-fYEOYebAlLPC-18" value="Inventory (if we get that far)" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
+                    <mxGeometry x="40" y="250" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="bI1N6Jz-fYEOYebAlLPC-33" value="External Links" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
+                    <mxGeometry x="860" y="653" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="bI1N6Jz-fYEOYebAlLPC-39" value="How to play" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
+                    <mxGeometry x="850" y="260" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="bI1N6Jz-fYEOYebAlLPC-40" value="Rogue" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
+                    <mxGeometry x="280" y="70" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="3tMZWmD8n9W2RvVIri14-1" value="Credits&lt;br&gt;&lt;div&gt;github repo&lt;/div&gt;&lt;div&gt;LinkedIns&lt;br&gt;&lt;/div&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
+                    <mxGeometry x="860" y="685" width="170" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="wJ0HoBK-MpjGunqqP_aH-1" value="New Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="175" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="wJ0HoBK-MpjGunqqP_aH-2" value="Load Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
+                    <mxGeometry x="477" y="175" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="wJ0HoBK-MpjGunqqP_aH-3" value="Save Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
+                    <mxGeometry x="623" y="175" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="wJ0HoBK-MpjGunqqP_aH-4" value="Options" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
+                    <mxGeometry x="770" y="175" width="60" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="Options" id="_dfubeYZmg95CYRQrs_m">
+        <mxGraphModel dx="1066" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="i5ganBNxl7puiaIQph1v-0"/>
+                <mxCell id="i5ganBNxl7puiaIQph1v-1" parent="i5ganBNxl7puiaIQph1v-0"/>
+                <mxCell id="i5ganBNxl7puiaIQph1v-2" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;comic=1;" parent="i5ganBNxl7puiaIQph1v-1" vertex="1">
+                    <mxGeometry x="20" y="20" width="1060" height="810" as="geometry"/>
+                </mxCell>
+                <mxCell id="i5ganBNxl7puiaIQph1v-3" value="LOGO" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=28;align=center;comic=1;" parent="i5ganBNxl7puiaIQph1v-1" vertex="1">
+                    <mxGeometry x="40" y="60" width="190" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="i5ganBNxl7puiaIQph1v-4" value="Inventory Placeholder Image" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="i5ganBNxl7puiaIQph1v-1" vertex="1">
+                    <mxGeometry x="30" y="230" width="200" height="590" as="geometry"/>
+                </mxCell>
+                <mxCell id="i5ganBNxl7puiaIQph1v-5" value="" style="line;strokeWidth=1;html=1;rounded=0;shadow=0;labelBackgroundColor=none;fillColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;align=center;comic=1;" parent="i5ganBNxl7puiaIQph1v-1" vertex="1">
+                    <mxGeometry x="20" y="140" width="1060" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="i5ganBNxl7puiaIQph1v-6" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="i5ganBNxl7puiaIQph1v-1" vertex="1">
+                    <mxGeometry x="30" y="160" width="1040" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="i5ganBNxl7puiaIQph1v-7" value="History of rogue" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;verticalAlign=top;spacing=10;comic=1;" parent="i5ganBNxl7puiaIQph1v-1" vertex="1">
+                    <mxGeometry x="250" y="640" width="580" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="i5ganBNxl7puiaIQph1v-8" value="&lt;div&gt;Entity count&lt;br&gt;&lt;/div&gt;&lt;div&gt;Checkboxes for bones files&lt;/div&gt;&lt;div&gt;Delete or Unload bones files&lt;br&gt;&lt;/div&gt;&lt;div&gt;set custom emoji&lt;/div&gt;&lt;div&gt;set player's name&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=middle;shadow=0;dashed=0;align=center;html=1;verticalAlign=middle;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;comic=1;labelPosition=center;" parent="i5ganBNxl7puiaIQph1v-1" vertex="1">
+                    <mxGeometry x="250" y="230" width="580" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="i5ganBNxl7puiaIQph1v-9" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="i5ganBNxl7puiaIQph1v-1" vertex="1">
+                    <mxGeometry x="840" y="230" width="230" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="i5ganBNxl7puiaIQph1v-10" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="i5ganBNxl7puiaIQph1v-1" vertex="1">
+                    <mxGeometry x="840" y="640" width="230" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="i5ganBNxl7puiaIQph1v-12" value="External Links" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="i5ganBNxl7puiaIQph1v-1" vertex="1">
+                    <mxGeometry x="860" y="653" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="i5ganBNxl7puiaIQph1v-13" value="How to play" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="i5ganBNxl7puiaIQph1v-1" vertex="1">
+                    <mxGeometry x="850" y="260" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="i5ganBNxl7puiaIQph1v-14" value="Rogue" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="i5ganBNxl7puiaIQph1v-1" vertex="1">
+                    <mxGeometry x="280" y="70" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="i5ganBNxl7puiaIQph1v-15" value="Credits&lt;br&gt;&lt;div&gt;github repo&lt;/div&gt;&lt;div&gt;LinkedIns&lt;br&gt;&lt;/div&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="i5ganBNxl7puiaIQph1v-1" vertex="1">
+                    <mxGeometry x="860" y="685" width="170" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="i5ganBNxl7puiaIQph1v-16" value="New Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="i5ganBNxl7puiaIQph1v-1" vertex="1">
+                    <mxGeometry x="330" y="175" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="i5ganBNxl7puiaIQph1v-17" value="Load Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="i5ganBNxl7puiaIQph1v-1" vertex="1">
+                    <mxGeometry x="477" y="175" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="i5ganBNxl7puiaIQph1v-18" value="Save Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="i5ganBNxl7puiaIQph1v-1" vertex="1">
+                    <mxGeometry x="623" y="175" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="i5ganBNxl7puiaIQph1v-19" value="Options" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana;fillColor=#d5e8d4;strokeColor=#82b366;" parent="i5ganBNxl7puiaIQph1v-1" vertex="1">
+                    <mxGeometry x="770" y="175" width="60" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="Save Game" id="bJ3EfH7VleJjNvOEZ6rp">
+        <mxGraphModel dx="1066" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="1cClHrK3Kd9biMGtf6Ir-0"/>
+                <mxCell id="1cClHrK3Kd9biMGtf6Ir-1" parent="1cClHrK3Kd9biMGtf6Ir-0"/>
+                <mxCell id="1cClHrK3Kd9biMGtf6Ir-2" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;comic=1;" parent="1cClHrK3Kd9biMGtf6Ir-1" vertex="1">
+                    <mxGeometry x="20" y="20" width="1060" height="810" as="geometry"/>
+                </mxCell>
+                <mxCell id="1cClHrK3Kd9biMGtf6Ir-3" value="LOGO" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=28;align=center;comic=1;" parent="1cClHrK3Kd9biMGtf6Ir-1" vertex="1">
+                    <mxGeometry x="40" y="60" width="190" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="1cClHrK3Kd9biMGtf6Ir-4" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1cClHrK3Kd9biMGtf6Ir-1" vertex="1">
+                    <mxGeometry x="30" y="230" width="200" height="590" as="geometry"/>
+                </mxCell>
+                <mxCell id="1cClHrK3Kd9biMGtf6Ir-5" value="" style="line;strokeWidth=1;html=1;rounded=0;shadow=0;labelBackgroundColor=none;fillColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;align=center;comic=1;" parent="1cClHrK3Kd9biMGtf6Ir-1" vertex="1">
+                    <mxGeometry x="20" y="140" width="1060" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="1cClHrK3Kd9biMGtf6Ir-6" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1cClHrK3Kd9biMGtf6Ir-1" vertex="1">
+                    <mxGeometry x="30" y="160" width="1040" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="1cClHrK3Kd9biMGtf6Ir-7" value="History of game actions" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;verticalAlign=top;spacing=10;comic=1;" parent="1cClHrK3Kd9biMGtf6Ir-1" vertex="1">
+                    <mxGeometry x="250" y="640" width="580" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="1cClHrK3Kd9biMGtf6Ir-8" value="feedback that the game is saved" style="verticalLabelPosition=middle;shadow=0;dashed=0;align=center;html=1;verticalAlign=middle;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;comic=1;labelPosition=center;" parent="1cClHrK3Kd9biMGtf6Ir-1" vertex="1">
+                    <mxGeometry x="250" y="230" width="580" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="1cClHrK3Kd9biMGtf6Ir-9" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1cClHrK3Kd9biMGtf6Ir-1" vertex="1">
+                    <mxGeometry x="840" y="230" width="230" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="1cClHrK3Kd9biMGtf6Ir-10" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1cClHrK3Kd9biMGtf6Ir-1" vertex="1">
+                    <mxGeometry x="840" y="640" width="230" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="1cClHrK3Kd9biMGtf6Ir-11" value="Inventory (if we get that far)" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1cClHrK3Kd9biMGtf6Ir-1" vertex="1">
+                    <mxGeometry x="40" y="250" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="1cClHrK3Kd9biMGtf6Ir-12" value="External Links" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1cClHrK3Kd9biMGtf6Ir-1" vertex="1">
+                    <mxGeometry x="860" y="653" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="1cClHrK3Kd9biMGtf6Ir-13" value="How to play" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1cClHrK3Kd9biMGtf6Ir-1" vertex="1">
+                    <mxGeometry x="850" y="260" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="1cClHrK3Kd9biMGtf6Ir-14" value="Rogue" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1cClHrK3Kd9biMGtf6Ir-1" vertex="1">
+                    <mxGeometry x="280" y="70" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="1cClHrK3Kd9biMGtf6Ir-15" value="Credits&lt;br&gt;&lt;div&gt;github repo&lt;/div&gt;&lt;div&gt;LinkedIns&lt;br&gt;&lt;/div&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1cClHrK3Kd9biMGtf6Ir-1" vertex="1">
+                    <mxGeometry x="860" y="685" width="170" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="1cClHrK3Kd9biMGtf6Ir-16" value="New Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1cClHrK3Kd9biMGtf6Ir-1" vertex="1">
+                    <mxGeometry x="330" y="175" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="1cClHrK3Kd9biMGtf6Ir-17" value="Load Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1cClHrK3Kd9biMGtf6Ir-1" vertex="1">
+                    <mxGeometry x="477" y="175" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="1cClHrK3Kd9biMGtf6Ir-18" value="Save Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1cClHrK3Kd9biMGtf6Ir-1" vertex="1">
+                    <mxGeometry x="623" y="175" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="1cClHrK3Kd9biMGtf6Ir-19" value="Options" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1cClHrK3Kd9biMGtf6Ir-1" vertex="1">
+                    <mxGeometry x="770" y="175" width="60" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="Load Game" id="72-gwtNT-dHhc7MaiIMS">
+        <mxGraphModel dx="602" dy="232" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-0"/>
+                <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-1" parent="r1zOQ3qdiibTc4OcZ8Vc-0"/>
+                <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-2" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;comic=1;" parent="r1zOQ3qdiibTc4OcZ8Vc-1" vertex="1">
+                    <mxGeometry x="20" y="20" width="1060" height="810" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-3" value="LOGO" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=28;align=center;comic=1;" parent="r1zOQ3qdiibTc4OcZ8Vc-1" vertex="1">
+                    <mxGeometry x="40" y="60" width="190" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-4" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="r1zOQ3qdiibTc4OcZ8Vc-1" vertex="1">
+                    <mxGeometry x="30" y="230" width="200" height="590" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-5" value="" style="line;strokeWidth=1;html=1;rounded=0;shadow=0;labelBackgroundColor=none;fillColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;align=center;comic=1;" parent="r1zOQ3qdiibTc4OcZ8Vc-1" vertex="1">
+                    <mxGeometry x="20" y="140" width="1060" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-6" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="r1zOQ3qdiibTc4OcZ8Vc-1" vertex="1">
+                    <mxGeometry x="30" y="160" width="1040" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-7" value="History of game actions" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;verticalAlign=top;spacing=10;comic=1;" parent="r1zOQ3qdiibTc4OcZ8Vc-1" vertex="1">
+                    <mxGeometry x="250" y="640" width="580" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-8" value="List of saved games to pick from" style="verticalLabelPosition=middle;shadow=0;dashed=0;align=center;html=1;verticalAlign=middle;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;comic=1;labelPosition=center;" parent="r1zOQ3qdiibTc4OcZ8Vc-1" vertex="1">
+                    <mxGeometry x="250" y="230" width="580" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-9" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="r1zOQ3qdiibTc4OcZ8Vc-1" vertex="1">
+                    <mxGeometry x="840" y="230" width="230" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-10" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="r1zOQ3qdiibTc4OcZ8Vc-1" vertex="1">
+                    <mxGeometry x="840" y="640" width="230" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-11" value="Inventory (if we get that far)" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="r1zOQ3qdiibTc4OcZ8Vc-1" vertex="1">
+                    <mxGeometry x="40" y="250" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-12" value="External Links" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="r1zOQ3qdiibTc4OcZ8Vc-1" vertex="1">
+                    <mxGeometry x="860" y="653" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-13" value="How to play" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="r1zOQ3qdiibTc4OcZ8Vc-1" vertex="1">
+                    <mxGeometry x="850" y="260" width="170" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-14" value="Rogue" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="r1zOQ3qdiibTc4OcZ8Vc-1" vertex="1">
+                    <mxGeometry x="280" y="70" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-15" value="Credits&lt;br&gt;&lt;div&gt;github repo&lt;/div&gt;&lt;div&gt;LinkedIns&lt;br&gt;&lt;/div&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="r1zOQ3qdiibTc4OcZ8Vc-1" vertex="1">
+                    <mxGeometry x="860" y="685" width="170" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-16" value="New Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="r1zOQ3qdiibTc4OcZ8Vc-1" vertex="1">
+                    <mxGeometry x="330" y="175" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-17" value="Load Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana;fillColor=#d5e8d4;strokeColor=#82b366;" parent="r1zOQ3qdiibTc4OcZ8Vc-1" vertex="1">
+                    <mxGeometry x="477" y="175" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-18" value="Save Game" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana;" parent="r1zOQ3qdiibTc4OcZ8Vc-1" vertex="1">
+                    <mxGeometry x="623" y="175" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1zOQ3qdiibTc4OcZ8Vc-19" value="Options" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="r1zOQ3qdiibTc4OcZ8Vc-1" vertex="1">
+                    <mxGeometry x="770" y="175" width="60" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>
