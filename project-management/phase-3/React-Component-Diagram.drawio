@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e" pages="5">
     <diagram name="Starting Page" id="5f0bae14-7c28-e335-631c-24af17079c00">
-        <mxGraphModel dx="1066" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+        <mxGraphModel dx="1066" dy="343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -89,7 +89,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="During Play" id="gVzzdGIS5c9hompjz1Dz">
-        <mxGraphModel dx="1066" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+        <mxGraphModel dx="1066" dy="343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="NPVSaHYlDvXI_vh2emtS-0"/>
                 <mxCell id="NPVSaHYlDvXI_vh2emtS-1" parent="NPVSaHYlDvXI_vh2emtS-0"/>
@@ -196,7 +196,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="Options" id="QCcV04Ux72A3N8HZsiGw">
-        <mxGraphModel dx="1066" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+        <mxGraphModel dx="1066" dy="343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="aLx0IoVfXQ_E37gM4BFF-0"/>
                 <mxCell id="aLx0IoVfXQ_E37gM4BFF-1" parent="aLx0IoVfXQ_E37gM4BFF-0"/>
@@ -321,7 +321,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="Save Game" id="JsHZbXYL83xnN3s2cAf9">
-        <mxGraphModel dx="1066" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+        <mxGraphModel dx="1066" dy="343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="L8dUetzbdPQQYyvq7WTi-0"/>
                 <mxCell id="L8dUetzbdPQQYyvq7WTi-1" parent="L8dUetzbdPQQYyvq7WTi-0"/>
@@ -410,7 +410,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="Load Game" id="dIk8ME94p8fH78ndT3Yz">
-        <mxGraphModel dx="1066" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+        <mxGraphModel dx="1066" dy="343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="6G7hxFkt_J5eVwQYXWkM-0"/>
                 <mxCell id="6G7hxFkt_J5eVwQYXWkM-1" parent="6G7hxFkt_J5eVwQYXWkM-0"/>
