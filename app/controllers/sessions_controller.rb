@@ -16,8 +16,6 @@ class SessionsController < ApplicationController
         user = Player.find_by(name: params[:name])
         if user&.authenticate(params[:password])
           session[:user_id] = user.id
-          cookies[:user_id] = user.id
-          cookies[:user_name] = user.name
           render json: user, status: :created
         else
           render json: { error: "Invalid username or password" }, status: :unauthorized
@@ -25,7 +23,8 @@ class SessionsController < ApplicationController
       end
 
       def destroy
-        #TODO: make sure you delete ALL the cookies from like pets and stuff
+        #TODO: remove this batshit cookie workflow
+        #make sure you delete ALL the cookies from like pets and stuff
         #if u set both, u have to delete both >.>
         session.delete :user_id
         cookies.delete :user_id

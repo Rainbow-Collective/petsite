@@ -1,5 +1,5 @@
-import React, { Dispatch, SetStateAction } from 'react';
-import { useHistory } from 'react-router-dom';
+import React, { Dispatch, SetStateAction, useState } from 'react';
+import { useHistory } from "react-router-dom";
 //https://stackoverflow.com/questions/56028635/passing-usestate-as-props-in-typescript
 type Dispatcher<S> = Dispatch<SetStateAction<S>>;
 
@@ -11,39 +11,45 @@ type LoginProps = {
 }
 
 export default function Login({ name, setUsername, password, setPassword }: LoginProps) {
+    const [controlledFormName, setControlledFormName] = useState(null as string | null);
+    const [controlledFormPassword, setControlledFormPassword] = useState(null as string | null);
 
     const history = useHistory();
 
     function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
         event.preventDefault();
-        fetch("/login", {
+        fetch("http://localhost:3000/login", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
             },
             body: JSON.stringify({
-                name: name,
-                password: password
+                name: controlledFormName,
+                password: controlledFormPassword
             }),
         })
             .then((response) => response.json())
-            .then(() => {
-                setUsername(name)
-                history.push("/play");
+            .then((name) => {
+                console.log({ name })
+                setUsername(name.name)
+                setControlledFormName(null)
+                setControlledFormPassword(null)
+                history.push("/testing");
             });
     }
 
     return (
         <form onSubmit={handleSubmit}>
             <h1>Login</h1>
+            <h1>hello {name}</h1>
             <div>
                 <div className='p-4'>
                     <label htmlFor="name" className='p-4'>Username:</label>
                     <input
                         type="text"
                         id="name"
-                        value={name}
-                        onChange={(event) => setUsername(event.target.value)}
+                        value={controlledFormName ? controlledFormName : "username"}
+                        onChange={(event) => setControlledFormName(event.target.value)}
                     />
                 </div>
                 <div className='p-4'>
@@ -51,8 +57,8 @@ export default function Login({ name, setUsername, password, setPassword }: Logi
                     <input
                         type="password"
                         id="password"
-                        value={password}
-                        onChange={(event) => setPassword(event.target.value)}
+                        value={controlledFormPassword ? controlledFormPassword : "pass"}
+                        onChange={(event) => setControlledFormPassword(event.target.value)}
                     />
                 </div>
                 <button type="submit" className='p-4 hover:bg-slate-400'>Login</button>

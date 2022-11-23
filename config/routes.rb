@@ -9,15 +9,19 @@ Rails.application.routes.draw do
   resources :player_has_foods
   
   #resources :sprites
+  #TODO: update this for new project
   resources :player_friends_tamas
   
   
   #custom routes
+  #TODO: update this for new project
   get "/mypets", to: "player_owns_tamas#mypets"
   
   
   #auth routes
+  #TODO: players should be users
   post "/signup", to: "users#create"
+  get "/me", to: "players#show"
   post "/login", to: "sessions#create"
   delete "/logout", to: "sessions#destroy"
   
