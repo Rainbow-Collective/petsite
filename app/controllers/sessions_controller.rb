@@ -1,4 +1,5 @@
 class SessionsController < ApplicationController
+  skip_before_action :authorized, only: :create
 
     # def create
     #     user = User.find_by(username: params[:username])
@@ -13,7 +14,7 @@ class SessionsController < ApplicationController
     #   end
 
       def create
-        user = Player.find_by(name: params[:name])
+        user = User.find_by(name: params[:name])
         if user&.authenticate(params[:password])
           session[:user_id] = user.id
           render json: user, status: :created
@@ -28,9 +29,6 @@ class SessionsController < ApplicationController
         #if u set both, u have to delete both >.>
         session.delete :user_id
         cookies.delete :user_id
-        cookies.delete :user_name
-        cookies.delete :tama_character_id
-        cookies.delete :tama_character_last_accessed
         head :no_content
       end
       

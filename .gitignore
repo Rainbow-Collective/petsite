@@ -1,0 +1,4 @@
+*.key
+tmp/*
+log/*
+postgres/*
