@@ -4,7 +4,6 @@ Rails.application.routes.draw do
   resources :pets
   resources :users
   resources :sprites
-  resources :gm_responses, only: [:index, :show]
 
   
   
@@ -13,10 +12,7 @@ Rails.application.routes.draw do
   
   
   #custom routes
-  #TODO: update this for new project
-  #this should be a special serializer
-  get "/mypets", to: "player_owns_tamas#mypets"
-  
+  get "/mypets", to: "pets#mypets"
   
   #auth routes
   post "/signup", to: "users#create"

@@ -9,18 +9,30 @@ https://betterprogramming.pub/how-to-embed-react-apps-in-wordpress-sites-96a21b9
 
 ### Art:
 
+[COLLECTION ON ITCH.IO](https://itch.io/c/2928946/magi)
+
+
 https://onocentaur.itch.io/eggs
 
+
 https://pop-shop-packs.itch.io/pigeons-2d-pixel-asset-pack
+
 https://pop-shop-packs.itch.io/birds-2d-pixel-character-asset-pack 
+
 
 https://pop-shop-packs.itch.io/food-pack-collection-pixel-asset-pack
 
+
 https://pop-shop-packs.itch.io/beach-items-item-pixel-asset-pack
+
 https://pop-shop-packs.itch.io/houses-pixel-art-asset-pack 
+
 https://pop-shop-packs.itch.io/wild-plants-pixel-asset-pack 
 
+
+
 https://pigeonivy.itch.io/tiny-speech-indicators
+
 https://dibbelgames.itch.io/16x16-emotes-pack
 
 
