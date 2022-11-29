@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+puts "Creating Sprites for Characters"
+
+sprite1 = Sprite.create!(image_path: "/images/mystic_woods_v0.2/sprites/characters/select-player.png" )
