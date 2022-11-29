@@ -4,7 +4,6 @@ class SpritesController < ApplicationController
   # GET /sprites
   def index
     @sprites = Sprite.all
-
     render json: @sprites
   end
 
@@ -16,21 +15,12 @@ class SpritesController < ApplicationController
   # POST /sprites
   def create
     @sprite = Sprite.new(sprite_params)
-
-    if @sprite.save
-      render json: @sprite, status: :created, location: @sprite
-    else
-      render json: @sprite.errors, status: :unprocessable_entity
-    end
+    render json: @sprite, status: :created, location: @sprite
   end
 
   # PATCH/PUT /sprites/1
   def update
-    if @sprite.update(sprite_params)
-      render json: @sprite
-    else
-      render json: @sprite.errors, status: :unprocessable_entity
-    end
+    @sprite.update(sprite_params)
   end
 
   # DELETE /sprites/1
@@ -41,7 +31,7 @@ class SpritesController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_sprite
-      @sprite = Sprite.find(params[:id])
+      @sprite = Sprite.find!(params[:id])
     end
 
     # Only allow a list of trusted parameters through.

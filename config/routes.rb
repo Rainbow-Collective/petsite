@@ -1,23 +1,22 @@
 Rails.application.routes.draw do
-  resources :gm_responses, only: [:index, :show]
+  resources :user_homes
+  resources :user_pet_relationships
+  resources :pets
+  resources :users
+  resources :sprites
 
-  resources :players
   
-  resources :tama_characters
-  resources :player_owns_tamas
-  resources :tama_has_sprites
-  resources :player_has_foods
   
   #resources :sprites
-  resources :player_friends_tamas
+  #TODO: this should be serialized
   
   
   #custom routes
-  get "/mypets", to: "player_owns_tamas#mypets"
-  
+  get "/mypets", to: "pets#mypets"
   
   #auth routes
   post "/signup", to: "users#create"
+  get "/me", to: "users#show"
   post "/login", to: "sessions#create"
   delete "/logout", to: "sessions#destroy"
   
