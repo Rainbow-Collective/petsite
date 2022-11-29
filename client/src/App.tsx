@@ -1,7 +1,6 @@
 import React from 'react';
-import { Dispatch, SetStateAction, useState, useEffect } from 'react';
-import { BrowserRouter, Switch, Route, useHistory } from "react-router-dom";
-import logo from './logo.svg';
+import { useState } from 'react';
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import './styles/App.css';
 import Login from './components/authentication/Login';
 import Footer from './components/common/Footer';
@@ -14,12 +13,16 @@ function App() {
   const [name, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
-
+  // https://www.geeksforgeeks.org/how-to-use-files-in-public-folder-in-reactjs/
   return (
     <BrowserRouter>
       <div className="App">
+        <Navbar
+          name={name}
+          setUsername={setUsername}
+        />
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={process.env.PUBLIC_URL + "/images/mystic_woods_v0.2/sprites/objects/objects.png"} className="App-logo" alt="logo" />
           <Switch>
             <Route path="/testing">
               <h1>Test Route</h1>
@@ -38,6 +41,7 @@ function App() {
             </Route>
           </Switch>
         </header >
+        <Footer />
       </div >
     </BrowserRouter >
   );

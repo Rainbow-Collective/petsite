@@ -1,9 +1,10 @@
 /*screen color: #CFDDD4
 RGB: 207, 221, 212
 */
-body{
+body {
   background-color: #282c34;
 }
+
 .App {
   text-align: center;
   background: #282c34;
@@ -29,7 +30,8 @@ body{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: slategray;
-  font-family: 'VT323', monospace;
+  /* font-family: 'VT323', monospace; */
+  font-family: 'fibberishregular', monospace;
 
 }
 
