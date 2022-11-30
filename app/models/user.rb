@@ -5,8 +5,8 @@ class User < ApplicationRecord
     has_many :pets, through: :user_pet_relationships
 
 
-    validates_presence_of :name, :password
-    validates :password, length: {minimum: 5}
+    validates_presence_of :name
+    # validates :password, length: {minimum: 5}
     
 
 end

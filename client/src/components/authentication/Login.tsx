@@ -1,14 +1,8 @@
 import React, { Dispatch, SetStateAction, useState } from 'react';
 import { useHistory } from "react-router-dom";
-//https://stackoverflow.com/questions/56028635/passing-usestate-as-props-in-typescript
-type Dispatcher<S> = Dispatch<SetStateAction<S>>;
+import { LoginProps } from '../types';
 
-type LoginProps = {
-    name: string
-    password: string
-    setUsername: Dispatcher<string>
-    setPassword: Dispatcher<string>
-}
+
 
 export default function Login({ name, setUsername, password, setPassword }: LoginProps) {
     const [controlledFormName, setControlledFormName] = useState(null as string | null);
@@ -40,7 +34,7 @@ export default function Login({ name, setUsername, password, setPassword }: Logi
 
     return (
         <form onSubmit={handleSubmit}>
-            <h1>Login</h1>
+            <h1>Login Form</h1>
             <h1>hello {name}</h1>
             <div>
                 <div className='p-4'>
@@ -61,7 +55,7 @@ export default function Login({ name, setUsername, password, setPassword }: Logi
                         onChange={(event) => setControlledFormPassword(event.target.value)}
                     />
                 </div>
-                <button type="submit" className='p-4 hover:bg-slate-400'>Login</button>
+                <button type="submit" className='p-4 hover:bg-slate-400'>[Login]</button>
             </div>
         </form>
     );

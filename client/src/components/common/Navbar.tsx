@@ -32,7 +32,7 @@ export default function Navbar({ name, setUsername }: NavbarProps) {
                 {/* <NavLink to="#"><button className="p-2 hover:bg-slate-400">Visit Pets</button></NavLink> */}
                 {name !== "" ?
                     <NavLink to="#" onClick={() => handleLogout()}><button className="p-2 hover:bg-slate-400">[Logout]</button></NavLink> :
-                    <NavLink to="/Auth"><button className="p-2 hover:bg-slate-400">[Log In]</button></NavLink>}
+                    <NavLink to="/Auth"><button className="p-2 hover:bg-slate-400">[Log In or Sign Up]</button></NavLink>}
             </div>
         </nav>
     );

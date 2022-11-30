@@ -1,20 +1,12 @@
 //https://learning.flatironschool.com/courses/5230/pages/authenticating-users?module_item_id=486270
-import React, { Dispatch, SetStateAction, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
-type Dispatcher<S> = Dispatch<SetStateAction<S>>;
-
-
-type SignUpProps = {
-    name: string
-    password: string
-    setUsername: Dispatcher<string>
-    setPassword: Dispatcher<string>
-}
+import { SignUpProps } from '../types';
 
 
 
 
-export default function SignUp({ name, setUsername, password, setPassword }: SignUpProps) {
+export default function SignUp({ name, setUsername, password, setPassword, spriteSelect, setSpriteSelect }: SignUpProps) {
     const history = useHistory();
     const [passwordConfirmation, setPasswordConfirmation] = useState("");
     //https://www.kindacode.com/article/react-typescript-handling-form-onsubmit-event/
@@ -26,9 +18,10 @@ export default function SignUp({ name, setUsername, password, setPassword }: Sig
                 "Content-Type": "application/json",
             },
             body: JSON.stringify({
-                name,
-                password,
+                name: name,
+                password: password,
                 password_confirmation: passwordConfirmation,
+                sprite_id: spriteSelect
             }),
         })
             .then((response) => response.json())
@@ -38,8 +31,15 @@ export default function SignUp({ name, setUsername, password, setPassword }: Sig
             });
     }
 
+    //TODO: replace this with a sprite request and selector
+    useEffect(() => {
+        setSpriteSelect(1)
+    }, [])
+
+
     return (
         <form onSubmit={handleSubmit}>
+            <h1>Welcome to the Guild of the Magi! </h1>
             <h1>Create an Account</h1>
             <div>
                 <div>
@@ -70,8 +70,19 @@ export default function SignUp({ name, setUsername, password, setPassword }: Sig
                             onChange={(event) => setPasswordConfirmation(event.target.value)}
                         />
                     </div>
+                    <div className='p-4'>
+                        <label htmlFor="user_sprite_select">Select Character:</label>
+                        <input
+                            type="dropdown"
+                            id="user_sprite_select"
+                            value={1}
+                            onChange={(event) => setSpriteSelect((current) => {
+                                return parseInt(event.target.value);
+                            })}
+                        />
+                    </div>
                     <div>
-                        <button type="submit" className='hover:bg-slate-400'>Submit</button>
+                        <button type="submit" className='hover:bg-slate-400'>[Submit]</button>
                     </div>
                 </div>
             </div>
