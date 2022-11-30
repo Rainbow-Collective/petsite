@@ -4,6 +4,7 @@ class PetsController < ApplicationController
   # GET /pets
   def index
     @pets = Pet.all
+
     render json: @pets
   end
 
@@ -12,23 +13,24 @@ class PetsController < ApplicationController
     render json: @pet
   end
 
-  #GET /mypets
-  def mypets
-    #TODO:this should be a special serializer
-    @pets = Pet.find_by(user_id = session[:user_id])
-    render json: @pets
-  end
-
   # POST /pets
   def create
-    @pet = Pet.create!(pet_params)
-    render json: @pet
+    @pet = Pet.new(pet_params)
+
+    if @pet.save
+      render json: @pet, status: :created, location: @pet
+    else
+      render json: @pet.errors, status: :unprocessable_entity
+    end
   end
 
   # PATCH/PUT /pets/1
   def update
-     @pet.update!(pet_params)
+    if @pet.update(pet_params)
       render json: @pet
+    else
+      render json: @pet.errors, status: :unprocessable_entity
+    end
   end
 
   # DELETE /pets/1
@@ -39,11 +41,11 @@ class PetsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_pet
-      @pet = Pet.find!(params[:id])
+      @pet = Pet.find(params[:id])
     end
 
     # Only allow a list of trusted parameters through.
     def pet_params
-      params.require(:pet).permit(:name, :hunger, :attention, :weight, :height, :species, :diet, :sprite_id)
+      params.require(:pet).permit(:name, :hunger, :attention, :weight, :height, :species, :diet, :sprite)
     end
 end

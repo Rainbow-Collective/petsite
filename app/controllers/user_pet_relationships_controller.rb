@@ -15,14 +15,22 @@ class UserPetRelationshipsController < ApplicationController
 
   # POST /user_pet_relationships
   def create
-      @user_pet_relationship = UserPetRelationship.create!(user_pet_relationship_params)
+    @user_pet_relationship = UserPetRelationship.new(user_pet_relationship_params)
+
+    if @user_pet_relationship.save
       render json: @user_pet_relationship, status: :created, location: @user_pet_relationship
+    else
+      render json: @user_pet_relationship.errors, status: :unprocessable_entity
+    end
   end
 
   # PATCH/PUT /user_pet_relationships/1
   def update
-    if @user_pet_relationship.update!(user_pet_relationship_params)
+    if @user_pet_relationship.update(user_pet_relationship_params)
       render json: @user_pet_relationship
+    else
+      render json: @user_pet_relationship.errors, status: :unprocessable_entity
+    end
   end
 
   # DELETE /user_pet_relationships/1
@@ -33,7 +41,7 @@ class UserPetRelationshipsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_user_pet_relationship
-      @user_pet_relationship = UserPetRelationship.find!(params[:id])
+      @user_pet_relationship = UserPetRelationship.find(params[:id])
     end
 
     # Only allow a list of trusted parameters through.

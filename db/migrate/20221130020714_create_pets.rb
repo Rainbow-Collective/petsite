@@ -8,7 +8,7 @@ class CreatePets < ActiveRecord::Migration[7.0]
       t.float :height
       t.string :species
       t.string :diet
-      t.references :sprite, null: false, foreign_key: true
+      t.integer :sprite
 
       t.timestamps
     end
