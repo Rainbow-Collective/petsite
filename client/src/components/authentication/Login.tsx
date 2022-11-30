@@ -42,7 +42,7 @@ export default function Login({ name, setUsername, password, setPassword }: Logi
                     <input
                         type="text"
                         id="name"
-                        value={controlledFormName ? controlledFormName : "username"}
+                        value={controlledFormName ? controlledFormName : ""}
                         onChange={(event) => setControlledFormName(event.target.value)}
                     />
                 </div>
@@ -51,7 +51,7 @@ export default function Login({ name, setUsername, password, setPassword }: Logi
                     <input
                         type="password"
                         id="password"
-                        value={controlledFormPassword ? controlledFormPassword : "pass"}
+                        value={controlledFormPassword ? controlledFormPassword : ""}
                         onChange={(event) => setControlledFormPassword(event.target.value)}
                     />
                 </div>

@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   before_action :set_user, only: %i[ show update destroy ]
-
+  skip_before_action :authorized, only: :create
   # GET /users
   def index
     @users = User.all
@@ -15,7 +15,9 @@ class UsersController < ApplicationController
 
   # POST /users
   def create
-    render json: User.create!(user_params),  status: 201
+    user = User.create!(user_params)
+    session[:user_id] = user.id
+    render json: user,  status: 201
   end
 
   # PATCH/PUT /users/1
@@ -40,6 +42,6 @@ class UsersController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def user_params
-      params.permit(:name,  :sprite_id, :password, :password_confirmation, :password_digest)
+      params.permit(:name, :sprite_id, :password, :password_confirmation, :password_digest)
     end
 end
