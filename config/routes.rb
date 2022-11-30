@@ -2,7 +2,6 @@ Rails.application.routes.draw do
   resources :user_homes
   resources :user_pet_relationships
   resources :pets
-  resources :users
   resources :sprites
 
   
