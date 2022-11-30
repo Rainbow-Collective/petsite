@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-<<<<<<< Updated upstream
+
     has_secure_password
     has_one :user_home
     has_many :user_pet_relationships
@@ -10,5 +10,5 @@ class User < ApplicationRecord
     # validates :password, length: {minimum: 5}
     
 
->>>>>>> Stashed changes
+
 end

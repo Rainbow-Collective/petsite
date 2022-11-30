@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_11_28_153041) do
+ActiveRecord::Schema[7.0].define(version: 2022_11_30_022029) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -22,10 +22,9 @@ ActiveRecord::Schema[7.0].define(version: 2022_11_28_153041) do
     t.float "height"
     t.string "species"
     t.string "diet"
-    t.bigint "sprite_id", null: false
+    t.integer "sprite"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["sprite_id"], name: "index_pets_on_sprite_id"
   end
 
   create_table "sprites", force: :cascade do |t|
@@ -62,7 +61,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_11_28_153041) do
     t.datetime "updated_at", null: false
   end
 
-  add_foreign_key "pets", "sprites"
   add_foreign_key "user_homes", "users"
   add_foreign_key "user_pet_relationships", "pets"
   add_foreign_key "user_pet_relationships", "users"
