@@ -19,7 +19,8 @@ class SessionsController < ApplicationController
 
       if user&.authenticate(params[:password])
           session[:user_id] = user.id
-          render json: user, status: :created
+          # binding.break
+          render json: {user: user.name} , status: :created
       else
           render json: {error: "Invalid name or password"}, status: :unauthorized
       end
