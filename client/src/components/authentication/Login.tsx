@@ -28,7 +28,7 @@ export default function Login() {
             .then((response) => response.json())
             .then((name) => {
                 console.log({ name })
-                context.setUsername(name.name)
+                context.setUsername(name.user)
                 setControlledFormName(null)
                 setControlledFormPassword(null)
                 history.push("/testing");
