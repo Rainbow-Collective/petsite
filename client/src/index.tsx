@@ -8,6 +8,7 @@ import { IdentityProvider } from './context/identityContext';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+console.log("index");
 root.render(
   <React.StrictMode>
     <IdentityProvider>

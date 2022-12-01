@@ -50,7 +50,8 @@ export default function SignUp() {
                         <input
                             type="text"
                             id="username"
-                            value={context.name}
+                            // This is called "null coalescence" and it makes one popular with the ladies
+                            value={context.name ?? ""}
                             onChange={(event) => context.setUsername(event.target.value)}
                         />
                     </div>
@@ -59,7 +60,7 @@ export default function SignUp() {
                         <input
                             type="password"
                             id="password"
-                            value={context.password}
+                            value={context.password ?? ""}
                             onChange={(event) => context.setPassword(event.target.value)}
                         />
                     </div>

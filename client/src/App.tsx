@@ -13,7 +13,7 @@ import { IdentityContextType } from './components/types';
 function App() {
 
   const context = useContext(IdentityContext) as IdentityContextType;
-
+  console.log("app");
 
 
   // https://www.geeksforgeeks.org/how-to-use-files-in-public-folder-in-reactjs/

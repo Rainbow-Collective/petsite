@@ -24,7 +24,7 @@ export const IdentityProvider: React.FC<IdentityContextProviderProps> = ({ child
     }
 
     //TODO: return login form here
-    if (name === null || password === null) { return <p>u need to log in</p> }
+    // if (name === null || password === null) { return <p>u need to log in</p> }
 
     return (<IdentityContext.Provider value={{ name, onLogout, password, spriteSelect, setUsername, setPassword, setSpriteSelect }}>{children}</IdentityContext.Provider>)
 

@@ -12,8 +12,8 @@ export type LoginProps = {
 }
 
 export type IdentityContextType = {
-    name: string
-    password: string
+    name: string | null
+    password: string | null
     spriteSelect: number
     onLogout: () => void
     setUsername: Dispatcher<string | null>
