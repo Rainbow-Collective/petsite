@@ -9,13 +9,6 @@ import LoginOrSignUp from './components/authentication/LoginOrSignUp';
 
 
 function App() {
-
-  //username
-  const [name, setUsername] = useState("");
-  const [password, setPassword] = useState("");
-  const [spriteSelect, setSpriteSelect] = useState(null as null | number);
-
-
   // https://www.geeksforgeeks.org/how-to-use-files-in-public-folder-in-reactjs/
   return (
     <BrowserRouter>

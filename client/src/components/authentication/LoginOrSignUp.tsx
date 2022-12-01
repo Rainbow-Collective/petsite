@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Login from './Login'
 import SignUp from './SignUp'
-import { SignUpProps } from '../types'
+import { IdentityContextType } from '../types'
 
 const LoginOrSignUp = ({ name, setUsername, password, setPassword, spriteSelect, setSpriteSelect }: SignUpProps) => {
 

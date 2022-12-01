@@ -1,12 +1,12 @@
 //https://learning.flatironschool.com/courses/5230/pages/authenticating-users?module_item_id=486270
 import React, { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
-import { SignUpProps } from '../types';
+import { IdentityContextType } from '../types';
 
 
 
 
-export default function SignUp({ name, setUsername, password, setPassword, spriteSelect, setSpriteSelect }: SignUpProps) {
+export default function SignUp({ name, setUsername, password, setPassword, spriteSelect, setSpriteSelect }: IdentityContextType) {
     const history = useHistory();
     const [passwordConfirmation, setPasswordConfirmation] = useState("");
     //https://www.kindacode.com/article/react-typescript-handling-form-onsubmit-event/
