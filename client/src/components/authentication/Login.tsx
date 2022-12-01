@@ -31,7 +31,7 @@ export default function Login() {
                 context.setUsername(name.user)
                 setControlledFormName(null)
                 setControlledFormPassword(null)
-                history.push("/testing");
+                history.push("/Play");
             });
     }
 
