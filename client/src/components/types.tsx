@@ -8,14 +8,17 @@ type Dispatcher<S> = Dispatch<SetStateAction<S>>;
 export type LoginProps = {
     name: string
     password: string
-    setUsername: Dispatcher<string>
-    setPassword: Dispatcher<string>
+
 }
 
 export type IdentityContextType = {
     name: string
     password: string
     spriteSelect: number
+    onLogout: () => void
+    setUsername: Dispatcher<string | null>
+    setPassword: Dispatcher<string | null>
+    setSpriteSelect: Dispatcher<number>
 }
 
 

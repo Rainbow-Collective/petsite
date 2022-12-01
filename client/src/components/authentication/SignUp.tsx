@@ -1,12 +1,14 @@
 //https://learning.flatironschool.com/courses/5230/pages/authenticating-users?module_item_id=486270
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { useHistory } from 'react-router-dom';
+import { IdentityContext } from '../../context/identityContext';
 import { IdentityContextType } from '../types';
 
 
 
 
-export default function SignUp({ name, setUsername, password, setPassword, spriteSelect, setSpriteSelect }: IdentityContextType) {
+export default function SignUp() {
+    const context = useContext(IdentityContext) as IdentityContextType;
     const history = useHistory();
     const [passwordConfirmation, setPasswordConfirmation] = useState("");
     //https://www.kindacode.com/article/react-typescript-handling-form-onsubmit-event/
@@ -18,22 +20,22 @@ export default function SignUp({ name, setUsername, password, setPassword, sprit
                 "Content-Type": "application/json",
             },
             body: JSON.stringify({
-                name: name,
-                password: password,
+                name: context.name,
+                password: context.password,
                 password_confirmation: passwordConfirmation,
-                sprite_id: spriteSelect
+                sprite_id: context.spriteSelect
             }),
         })
             .then((response) => response.json())
             .then(() => {
-                setUsername(name)
+                context.setUsername(context.name)
                 history.push("/play")
             });
     }
 
     //TODO: replace this with a sprite request and selector
     useEffect(() => {
-        setSpriteSelect(1)
+        context.setSpriteSelect(1)
     }, [])
 
 
@@ -48,8 +50,8 @@ export default function SignUp({ name, setUsername, password, setPassword, sprit
                         <input
                             type="text"
                             id="username"
-                            value={name}
-                            onChange={(event) => setUsername(event.target.value)}
+                            value={context.name}
+                            onChange={(event) => context.setUsername(event.target.value)}
                         />
                     </div>
                     <div className='p-4'>
@@ -57,8 +59,8 @@ export default function SignUp({ name, setUsername, password, setPassword, sprit
                         <input
                             type="password"
                             id="password"
-                            value={password}
-                            onChange={(event) => setPassword(event.target.value)}
+                            value={context.password}
+                            onChange={(event) => context.setPassword(event.target.value)}
                         />
                     </div>
                     <div className='p-4'>
@@ -76,7 +78,7 @@ export default function SignUp({ name, setUsername, password, setPassword, sprit
                             type="dropdown"
                             id="user_sprite_select"
                             value={1}
-                            onChange={(event) => setSpriteSelect((current) => {
+                            onChange={(event) => context.setSpriteSelect((current) => {
                                 return parseInt(event.target.value);
                             })}
                         />

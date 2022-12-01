@@ -1,9 +1,8 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import Login from './Login'
 import SignUp from './SignUp'
-import { IdentityContextType } from '../types'
 
-const LoginOrSignUp = ({ name, setUsername, password, setPassword, spriteSelect, setSpriteSelect }: SignUpProps) => {
+const LoginOrSignUp = () => {
 
 
 
@@ -19,19 +18,8 @@ const LoginOrSignUp = ({ name, setUsername, password, setPassword, spriteSelect,
 
     const authForm = () => {
         return loginOrSignUp ? <Login
-            name={name}
-            setUsername={setUsername}
-            password={password}
-            setPassword={setPassword}
         /> :
             <SignUp
-                name={name}
-                setUsername={setUsername}
-                password={password}
-                setPassword={setPassword}
-                spriteSelect={spriteSelect}
-                setSpriteSelect={setSpriteSelect}
-
             />
     }
 

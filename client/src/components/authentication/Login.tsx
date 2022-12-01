@@ -1,12 +1,15 @@
-import React, { Dispatch, SetStateAction, useState } from 'react';
+import React, { Dispatch, SetStateAction, useContext, useState } from 'react';
 import { useHistory } from "react-router-dom";
-import { LoginProps } from '../types';
+import { IdentityContext } from '../../context/identityContext';
+import { IdentityContextType } from '../types';
 
 
 
-export default function Login({ name, setUsername, password, setPassword }: LoginProps) {
+export default function Login() {
     const [controlledFormName, setControlledFormName] = useState(null as string | null);
     const [controlledFormPassword, setControlledFormPassword] = useState(null as string | null);
+    const context = useContext(IdentityContext) as IdentityContextType;
+
 
     const history = useHistory();
 
@@ -25,7 +28,7 @@ export default function Login({ name, setUsername, password, setPassword }: Logi
             .then((response) => response.json())
             .then((name) => {
                 console.log({ name })
-                setUsername(name.name)
+                context.setUsername(name.name)
                 setControlledFormName(null)
                 setControlledFormPassword(null)
                 history.push("/testing");
@@ -35,7 +38,7 @@ export default function Login({ name, setUsername, password, setPassword }: Logi
     return (
         <form onSubmit={handleSubmit}>
             <h1>Login Form</h1>
-            <h1>hello {name}</h1>
+            <h1>hello {context.name}</h1>
             <div>
                 <div className='p-4'>
                     <label htmlFor="name" className='p-4'>Username:</label>
