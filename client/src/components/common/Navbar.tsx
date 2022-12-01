@@ -15,7 +15,7 @@ export default function Navbar() {
                 <NavLink to="/"><button className="p-2 hover:bg-slate-400 ">[Home]</button></NavLink>
                 {/* <NavLink to="/account"><button className="p-2 hover:bg-slate-400">Account</button></NavLink> */}
                 {/* <NavLink to="#"><button className="p-2 hover:bg-slate-400">Visit Pets</button></NavLink> */}
-                {context.name !== "" ?
+                {(context.name !== "" && context.name !== null) ?
                     <NavLink to="#" onClick={() => { context.onLogout(); history.push("/"); }}><button className="p-2 hover:bg-slate-400">[Logout]</button></NavLink> :
                     <NavLink to="/Auth"><button className="p-2 hover:bg-slate-400">[Log In or Sign Up]</button></NavLink>}
             </div>
