@@ -11,7 +11,7 @@ type IdentityContextProviderProps = {
 }
 
 
-const IdentityContextProvider: React.FC<IdentityContextProviderProps> = ({ children }) => {
+const IdentityProvider: React.FC<IdentityContextProviderProps> = ({ children }) => {
     const [name, setUsername] = useState(null);
     const [password, setPassword] = useState(null);
     const [spriteSelect, setSpriteSelect] = useState(1)
