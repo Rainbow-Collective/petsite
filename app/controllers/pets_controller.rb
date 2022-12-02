@@ -13,15 +13,18 @@ class PetsController < ApplicationController
     render json: @pet
   end
 
+  #GET /mypets
+  def mypets
+    @player_owns_pet = UserPetRelationship.find_by!(user_id: session[:user_id])
+    render json: @player_owns_pet
+    end
+
   # POST /pets
   def create
-    @pet = Pet.new(pet_params)
-
-    if @pet.save
+    @pet = Pet.create!(pet_params)
+    @user_pet_relationship = UserPetRelationship.create!(user_id: session[:user_id], pet_id: @pet.id, relationship: 5, player_is_owner: true)
+binding.break
       render json: @pet, status: :created, location: @pet
-    else
-      render json: @pet.errors, status: :unprocessable_entity
-    end
   end
 
   # PATCH/PUT /pets/1

@@ -1,6 +1,5 @@
 import React, { useEffect, useState, Dispatch, SetStateAction } from 'react'
 import { NavLink } from "react-router-dom";
-import { checkCookie } from './CheckCookie';
 
 type Dispatcher<S> = Dispatch<SetStateAction<S>>;
 
@@ -101,23 +100,24 @@ export const PetActionForm = ({ myPets, selectedPet, hunger, setHunger, attentio
 
     }
     //check to see how much time has passed
-    useEffect(() => {
+    //TODO: move this logic to backend
+    // useEffect(() => {
 
-        if (hunger === null || attention === null) { return }
+    //     if (hunger === null || attention === null) { return }
 
-        let last_accessed_cookie = checkCookie('last_accessed')
-        let last_accessed_date = last_accessed_cookie ? Date.parse(last_accessed_cookie) : 0;
-        let now = Date.now()
+    //     let last_accessed_cookie = checkCookie('last_accessed')
+    //     let last_accessed_date = last_accessed_cookie ? Date.parse(last_accessed_cookie) : 0;
+    //     let now = Date.now()
 
-        let time_passed = now - last_accessed_date
-        if (time_passed > (4 * 3600000)) { // four hours
+    //     let time_passed = now - last_accessed_date
+    //     if (time_passed > (4 * 3600000)) { // four hours
 
-            if (postData.attention >= 0) postData.attention -= 1;
-            if (postData.hunger < 10) postData.hunger += 1;
+    //         if (postData.attention >= 0) postData.attention -= 1;
+    //         if (postData.hunger < 10) postData.hunger += 1;
 
-        }
-        postPetStats()
-    }, [hunger, attention])
+    //     }
+    //     postPetStats()
+    // }, [hunger, attention])
 
 
 

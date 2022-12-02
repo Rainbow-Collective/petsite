@@ -1,13 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import HatchPetForm from './HatchPetForm'
 import ShowPets, { PetInfo } from './ShowPets'
 
 
-type ShowPetsFetcherProps = {
-    name: string
-}
-
-export const ShowPetsFetcher = ({ name }: ShowPetsFetcherProps) => {
+export const ShowPetsFetcher = () => {
 
     const [petName, setPetName] = useState("");
     const [myPets, setMyPets] = useState([] as PetInfo[]);
@@ -38,7 +34,6 @@ export const ShowPetsFetcher = ({ name }: ShowPetsFetcherProps) => {
     }
 
     return myPets.length > 0 ? (<ShowPets
-        name={name}
         myPets={myPets}
         setMyPets={setMyPets}
     />) : <p>loading</p>

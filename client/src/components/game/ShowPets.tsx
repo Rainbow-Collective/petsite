@@ -1,8 +1,10 @@
-import React, { Dispatch, SetStateAction, useEffect, useState } from "react";
+import React, { Dispatch, SetStateAction, useContext, useEffect, useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 import HatchPetForm from "./HatchPetForm";
 import { Bar } from "@nivo/bar";
 import { PetActionForm } from "./PetActionForm";
+import { IdentityContext } from "../../context/identityContext";
+import { IdentityContextType } from "../types";
 
 
 //TODO: remove this after serializing out the digest
@@ -30,12 +32,12 @@ type Dispatcher<S> = Dispatch<SetStateAction<S>>;
 
 
 type ShowPetsProps = {
-    name: string
     myPets: PetInfo[]
     setMyPets: Dispatcher<PetInfo[]>
 }
 
-export default function ShowPets({ name, myPets, setMyPets }: ShowPetsProps) {
+export default function ShowPets({ myPets, setMyPets }: ShowPetsProps) {
+    const context = useContext(IdentityContext) as IdentityContextType;
 
     const [selectedPet, setSelectedPet] = useState(0);
 
