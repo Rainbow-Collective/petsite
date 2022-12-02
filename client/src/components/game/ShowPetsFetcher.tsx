@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import HatchPetForm from './HatchPetForm'
-import ShowPets, { PetInfo } from './ShowPets'
-
+import ShowPets from './ShowPets'
+import { PetInfo } from "../types"
 
 export const ShowPetsFetcher = () => {
 

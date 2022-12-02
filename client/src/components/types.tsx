@@ -33,3 +33,26 @@ export type PetInfoContextType = {
         height: number
     }
 }
+
+
+//TODO: remove this after serializing out the digest
+export type PetInfo = {
+    id: number
+    bio: string
+    relationship?: number
+    user: {
+        id: number
+        name: string
+        password_digest: string
+    }
+    pet: {
+        id: number
+        name: string
+        hunger: number
+        attention: number
+        sick: boolean
+        weight: number
+        height: number
+    }
+
+}

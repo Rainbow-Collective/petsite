@@ -1,30 +1,9 @@
 import React, { useEffect, useState, Dispatch, SetStateAction } from 'react'
 import { NavLink } from "react-router-dom";
+import { PetInfo } from "../types"
 
 type Dispatcher<S> = Dispatch<SetStateAction<S>>;
 
-
-//TODO: remove this after serializing out the digest
-type PetInfo = {
-    id: number
-    bio: string
-    relationship?: number
-    player: {
-        id: number
-        name: string
-        password_digest: string
-    }
-    tama_character: {
-        id: number
-        name: string
-        hunger: number
-        attention: number
-        sick: boolean
-        weight: number
-        height: number
-    }
-
-}
 
 type PetActionFormProps = {
     myPets: PetInfo[]
@@ -43,7 +22,7 @@ export const PetActionForm = ({ myPets, selectedPet, hunger, setHunger, attentio
     }
 
     let postData = {
-        name: myPets[selectedPet].tama_character.name,
+        name: myPets[selectedPet].pet.name,
         hunger: hunger,
         attention: attention
     }
@@ -52,7 +31,7 @@ export const PetActionForm = ({ myPets, selectedPet, hunger, setHunger, attentio
         console.log(postData.attention)
         postData.hunger = clampValue(postData.hunger);
         postData.attention = clampValue(postData.attention);
-        fetch(`/tama_characters/${myPets[selectedPet].tama_character.id}`, {
+        fetch(`/pets/${myPets[selectedPet].pet.id}`, {
             method: "PATCH",
             headers: {
                 "Content-Type": "application/json",
