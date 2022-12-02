@@ -24,7 +24,7 @@ export default function HatchPetForm({ petName, setPetName }: HatchPetProps) {
 
     function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
         event.preventDefault();
-        fetch("/tama_characters", {
+        fetch("/pets", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -52,7 +52,7 @@ export default function HatchPetForm({ petName, setPetName }: HatchPetProps) {
                 value={petName}
                 onChange={(event) => setPetName(event.target.value)}
             />
-            <button type="submit"className='p-4 hover:bg-slate-400'>[Summon An Egg]</button>
+            <button type="submit" className='p-4 hover:bg-slate-400'>[Summon An Egg]</button>
         </form>
     );
 }

@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { IdentityContext } from '../../context/identityContext';
 import { IdentityContextType } from '../types';
-import { ShowPetsFetcher } from './ShowPetsFetcher';
+import { ShowPetsFetcher } from '../pet-api/ShowPetsFetcher';
 
 const GameApp = () => {
     const context = useContext(IdentityContext) as IdentityContextType;

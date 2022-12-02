@@ -1,8 +1,8 @@
 import React, { Dispatch, SetStateAction, useContext, useEffect, useState } from "react";
 import { Link, useHistory } from "react-router-dom";
-import HatchPetForm from "./HatchPetForm";
+import HatchPetForm from "../pet-api/HatchPetForm";
 import { Bar } from "@nivo/bar";
-import { PetActionForm } from "./PetActionForm";
+import { PetActionForm } from "../pet-api/PetActionForm";
 import { IdentityContext } from "../../context/identityContext";
 import { IdentityContextType, PetInfo } from "../types";
 
