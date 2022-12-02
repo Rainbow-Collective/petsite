@@ -2,12 +2,15 @@
 RGB: 207, 221, 212
 */
 body {
-  background-color: #282c34;
+  /* background-color: #ffffff; */
+  background-color: #11141a;
+
 }
 
 .App {
   text-align: center;
-  background: #282c34;
+  /* background-color: #11141a; */
+  background-color: #ffffff;
 }
 
 .App-logo {
@@ -22,8 +25,9 @@ body {
 } */
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /* background-color: #282c34; */
+  background-color: #11141a;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,6 +37,12 @@ body {
   /* font-family: 'VT323', monospace; */
   font-family: 'fibberishregular', monospace;
 
+}
+
+.grayText {
+  font-size: calc(10px + 2vmin);
+  color: darkslategray;
+  font-family: 'fibberishregular', monospace;
 }
 
 .App-link {

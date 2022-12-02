@@ -17,28 +17,37 @@ function App() {
   // https://www.geeksforgeeks.org/how-to-use-files-in-public-folder-in-reactjs/
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="App flex flex-col justify-around">
         <header className="App-header">
-          <Navbar />
-          <Switch>
-            <Route path="/testing">
-              <img src={process.env.PUBLIC_URL + "/images/mystic_woods_v0.2/sprites/objects/objects.png"} className="App-logo" alt="logo" />
-              <h1>Test Route</h1>
-              <h1>hello {context.name}</h1>
-            </Route>
-            <Route path="/Auth">
-              <LoginOrSignUp />
-            </Route>
-            <Route path="/Play">
-              <GameApp />
-            </Route>
-            <Route path="/">
-              <h1>Default Page</h1>
-            </Route>
-          </Switch>
-          <Footer />
+          <h1>The Guild of the Magi</h1>
+          <h2>A new kind of virtual pet experience</h2>
         </header >
-
+        <main className='flex justify-center content-center grayText'>
+          <div className='absolute bg-indigo-500 rounded-xl shadow-sm w-124'>
+            <div className='border-gray-900 border-opacity-40 border-2 bg-indigo-600 m-6 rounded-xl shadow-sm'>
+              <div className='border-gray-900 border-opacity-40 border-2 bg-amber-100 m-2 rounded-xl shadow-sm'>
+                <Navbar />
+                <Switch>
+                  <Route path="/testing">
+                    <img src={process.env.PUBLIC_URL + "/images/mystic_woods_v0.2/sprites/objects/objects.png"} className="App-logo" alt="logo" />
+                    <h1>Test Route</h1>
+                    <h1>hello {context.name}</h1>
+                  </Route>
+                  <Route path="/Auth">
+                    <LoginOrSignUp />
+                  </Route>
+                  <Route path="/Play">
+                    <GameApp />
+                  </Route>
+                  <Route path="/">
+                    <h1>Default Page</h1>
+                  </Route>
+                </Switch>
+                <Footer />
+              </div>
+            </div>
+          </div>
+        </main>
       </div >
     </BrowserRouter >
   );

@@ -23,7 +23,6 @@ class PetsController < ApplicationController
   def create
     @pet = Pet.create!(pet_params)
     @user_pet_relationship = UserPetRelationship.create!(user_id: session[:user_id], pet_id: @pet.id, relationship: 5, player_is_owner: true)
-binding.break
       render json: @pet, status: :created, location: @pet
   end
 
