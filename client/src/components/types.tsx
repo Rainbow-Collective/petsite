@@ -39,7 +39,7 @@ export type PetInfoContextType = {
 export type PetInfo = {
     id: number
     bio: string
-    relationship?: number
+    relationship: number
     user: {
         id: number
         name: string

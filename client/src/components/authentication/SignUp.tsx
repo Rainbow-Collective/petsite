@@ -84,6 +84,7 @@ export default function SignUp() {
                             })}
                         />
                     </div>
+                    <img src={process.env.PUBLIC_URL + "/images/Notes_221202_042209.jpg"} className="mx-auto h-80" alt="character select placeholder" />
                     <div>
                         <button type="submit" className='hover:bg-slate-400'>[Submit]</button>
                     </div>

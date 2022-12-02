@@ -28,6 +28,7 @@ export default function ShowPets({ myPets, setMyPets }: ShowPetsProps) {
     const barChartData = myPets.length > 0 ? [
         { label: 'hunger', value: hunger },
         { label: 'attention', value: attention },
+        { label: 'relationship', value: myPets[selectedPet].relationship },
         { label: 'weight', value: myPets[selectedPet].pet.weight },
         { label: 'height', value: myPets[selectedPet].pet.height }
     ] : [];
@@ -35,9 +36,8 @@ export default function ShowPets({ myPets, setMyPets }: ShowPetsProps) {
         return null;
     }
     return (<div>
-        <p>
-            hello {myPets[selectedPet].user.name}
-        </p>
+        <img src={process.env.PUBLIC_URL + "/images/Notes_221202_103856.jpg"} className="mx-auto w-80" alt="canvas  placeholder" />
+
         <PetActionForm
             myPets={myPets}
             selectedPet={selectedPet}
@@ -50,15 +50,14 @@ export default function ShowPets({ myPets, setMyPets }: ShowPetsProps) {
             this is your pet {myPets[selectedPet].pet.name}'s stats
         </p>
         <Bar
-            width={400}
-            height={400}
+            width={600}
+            height={600}
             data={barChartData}
             indexBy='label'
             keys={['value']}
             minValue={0}
             maxValue={10}
             groupMode="grouped"
-            layout="horizontal"
             colors={{ scheme: "pastel1" }}
             colorBy={"indexValue"}
             labelTextColor="#aaaaaa"
@@ -66,8 +65,8 @@ export default function ShowPets({ myPets, setMyPets }: ShowPetsProps) {
             legends={[
                 {
                     dataFrom: 'indexes',
-                    anchor: 'bottom-right',
-                    direction: 'column',
+                    anchor: 'top-right',
+                    direction: 'row',
                     justify: false,
                     itemsSpacing: 2,
                     itemWidth: 100,

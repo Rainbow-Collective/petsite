@@ -24,7 +24,8 @@ export const PetActionForm = ({ myPets, selectedPet, hunger, setHunger, attentio
     let postData = {
         name: myPets[selectedPet].pet.name,
         hunger: hunger,
-        attention: attention
+        attention: attention,
+        relationship: clampValue(myPets[selectedPet].relationship + 1) //TODO: this needs to go to a special route that will handle this param appropriately
     }
 
     function postPetStats() {
