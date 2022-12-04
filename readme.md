@@ -10,6 +10,7 @@ https://betterprogramming.pub/how-to-embed-react-apps-in-wordpress-sites-96a21b9
 ### Art:
 
 [COLLECTION ON ITCH.IO](https://itch.io/c/2928946/magi)
+[BUNDLE on ITCH.IO](https://itch.io/bundle/download/CQA58804KytUORzuLr3jNuc9qpTGdaqa5ZjBa_Gd)
 
 
 https://onocentaur.itch.io/eggs

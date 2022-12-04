@@ -28,11 +28,13 @@ class PetsController < ApplicationController
 
   # PATCH/PUT /pets/1
   def update
-    if @pet.update(pet_params)
-      render json: @pet
-    else
-      render json: @pet.errors, status: :unprocessable_entity
-    end
+      @pet.update(pet_params)
+      binding.break
+      unless pet_params[:relationship].blank?
+        binding.break
+        relationship = UserPetRelationship.find_by!(pet_id: @pet.id).update!(relationship: pet_params[:relationship])
+      end
+      render json: {pet: @pet, relationship: relationship} 
   end
 
   # DELETE /pets/1
@@ -49,5 +51,6 @@ class PetsController < ApplicationController
     # Only allow a list of trusted parameters through.
     def pet_params
       params.require(:pet).permit(:name, :hunger, :attention, :weight, :height, :species, :diet, :sprite)
+      params.require(:user_pet_relationship).permit(:relationship)
     end
 end

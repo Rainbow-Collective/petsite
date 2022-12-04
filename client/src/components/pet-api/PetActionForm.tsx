@@ -22,16 +22,20 @@ export const PetActionForm = ({ myPets, selectedPet, hunger, setHunger, attentio
     }
 
     let postData = {
-        name: myPets[selectedPet].pet.name,
-        hunger: hunger,
-        attention: attention,
-        relationship: clampValue(myPets[selectedPet].relationship + 1) //TODO: this needs to go to a special route that will handle this param appropriately
+        "pet": {
+            name: myPets[selectedPet].pet.name,
+            hunger: hunger,
+            attention: attention
+        },
+        "user_pet_relationship": {
+            relationship: clampValue(myPets[selectedPet].relationship + 1) //TODO: this needs to go to a special route that will handle this param appropriately
+        }
     }
 
     function postPetStats() {
-        console.log(postData.attention)
-        postData.hunger = clampValue(postData.hunger);
-        postData.attention = clampValue(postData.attention);
+        console.log(postData.pet.attention)
+        postData.pet.hunger = clampValue(postData.pet.hunger);
+        postData.pet.attention = clampValue(postData.pet.attention);
         fetch(`/pets/${myPets[selectedPet].pet.id}`, {
             method: "PATCH",
             headers: {
