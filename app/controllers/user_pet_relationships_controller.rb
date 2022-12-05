@@ -37,8 +37,8 @@ class UserPetRelationshipsController < ApplicationController
   def destroy
     @user_pet_relationship.destroy
   end
-
-  private
+#publicizing these methods so that I can inherit them on the combined_endpoint_controller
+  #private
     # Use callbacks to share common setup or constraints between actions.
     def set_user_pet_relationship
       @user_pet_relationship = UserPetRelationship.find(params[:id])

@@ -36,8 +36,6 @@ export default function ShowPets({ myPets, setMyPets }: ShowPetsProps) {
         return null;
     }
     return (<div>
-        <img src={process.env.PUBLIC_URL + "/images/Notes_221202_103856.jpg"} className="mx-auto w-80" alt="canvas  placeholder" />
-
         <PetActionForm
             myPets={myPets}
             selectedPet={selectedPet}

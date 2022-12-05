@@ -26,6 +26,7 @@ class PetsController < ApplicationController
       render json: @pet, status: :created, location: @pet
   end
 
+  #TODO: clean this back
   # PATCH/PUT /pets/1
   def update
       @pet.update(pet_params)
@@ -42,7 +43,9 @@ class PetsController < ApplicationController
     @pet.destroy
   end
 
-  private
+  #publicizing these methods so that I can inherit them on the combined_endpoint_controller
+  #private
+
     # Use callbacks to share common setup or constraints between actions.
     def set_pet
       @pet = Pet.find(params[:id])
@@ -51,6 +54,5 @@ class PetsController < ApplicationController
     # Only allow a list of trusted parameters through.
     def pet_params
       params.require(:pet).permit(:name, :hunger, :attention, :weight, :height, :species, :diet, :sprite)
-      params.require(:user_pet_relationship).permit(:relationship)
     end
 end

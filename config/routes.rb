@@ -12,6 +12,8 @@ Rails.application.routes.draw do
   
   #custom routes
   get "/mypets", to: "pets#mypets"
+  patch "/pet-action-relationship/:id", to: "combined_endpoint#pet_action_relationship_update"
+  put "/pet-action-relationship/:id", to: "combined_endpointr#pet_action_relationship_update"
   
   #auth routes
   post "/signup", to: "users#create"
