@@ -8,6 +8,16 @@ export default function Navbar() {
     const history = useHistory();
     const context = useContext(IdentityContext) as IdentityContextType;
 
+    //check if logged in
+    const amIloggedIn = (context.name !== "" && context.name !== null)
+
+    //buttons if you are logged in
+    const logoutButton = <NavLink to="/" onClick={() => { context.onLogout(); history.push("/"); }}><button className="p-2 hover:bg-slate-400">[Logout]</button></NavLink>
+    const seePetsButton = <NavLink to="/allpets" ><button className="p-2 hover:bg-slate-400 ">[See All Pets]</button></NavLink>
+    //buttons if you are not logged in
+    const logInButton = <NavLink to="/Auth"><button className="p-2 hover:bg-slate-400">[Log In or Sign Up]</button></NavLink>;
+
+
 
     return (
         <nav>
@@ -15,9 +25,8 @@ export default function Navbar() {
                 <NavLink to="/"><button className="p-2 hover:bg-slate-400 ">[Home]</button></NavLink>
                 {/* <NavLink to="/account"><button className="p-2 hover:bg-slate-400">Account</button></NavLink> */}
                 {/* <NavLink to="#"><button className="p-2 hover:bg-slate-400">Visit Pets</button></NavLink> */}
-                {(context.name !== "" && context.name !== null) ?
-                    <NavLink to="#" onClick={() => { context.onLogout(); history.push("/"); }}><button className="p-2 hover:bg-slate-400">[Logout]</button></NavLink> :
-                    <NavLink to="/Auth"><button className="p-2 hover:bg-slate-400">[Log In or Sign Up]</button></NavLink>}
+                {amIloggedIn ? seePetsButton : logInButton}
+                {amIloggedIn ? logoutButton : logInButton}
             </div>
         </nav>
     );
