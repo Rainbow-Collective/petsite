@@ -36,6 +36,9 @@ function App() {
                   <Route path="/Auth">
                     <LoginOrSignUp />
                   </Route>
+                  <Route path="/About">
+                    <h1>I like petsites but I think they're grindy so I made this project. That's the post.</h1>
+                  </Route>
                   <Route path="/Play">
                     <GameApp />
                   </Route>

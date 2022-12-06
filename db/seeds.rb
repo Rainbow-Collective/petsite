@@ -8,4 +8,8 @@
 
 puts "Creating Sprites for Characters"
 
-sprite1 = Sprite.create!(image_path: "/images/mystic_woods_v0.2/sprites/characters/select-player.png" )
+sprite1 = Sprite.create!(  image_path: "{'type': 'character', 'path':'client/public/images/mystic_woods_v0.2/sprites/characters/player.png'}" )
+sprite2 = Sprite.create!(  image_path: "{'type': 'pet', 'path':'/images/CuteRPG-Free/16x16/pets/Pet06_04.png'}" )
+sprite3 = Sprite.create!(  image_path: "{'type': 'pet', 'path':'/images/CuteRPG-Free/16x16/pets/Pet06_01.png'}" )
+
+puts "done creating sprites for characters"

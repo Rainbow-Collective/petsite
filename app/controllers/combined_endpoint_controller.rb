@@ -2,11 +2,11 @@ class CombinedEndpointController < ApplicationController
 
     before_action :set_pet, only: %i[ pet_action_relationship_update ]
 
-
+#https://stackoverflow.com/questions/33049573/rails-4-how-to-update-a-model-field-from-a-different-controller/33049802#33049802
  # PATCH/PUT /pet-action-relationship/1
  def pet_action_relationship_update
-    @pet.update!(pet_action_form_params_for_pet)
     unless pet_action_form_params_for_relationship[:relationship].blank?
+      @pet.update!(pet_action_form_params_for_pet)
       relationship = set_user_pet_relationship
       relationship_update = relationship.update!(relationship: pet_action_form_params_for_relationship[:relationship])
     end
