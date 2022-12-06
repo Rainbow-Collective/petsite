@@ -3,6 +3,7 @@ import { IdentityContext } from '../../context/identityContext';
 import { IdentityContextType } from '../types';
 import { MyPetsFetcher } from '../pet-api/MyPetsFetcher';
 import GameCanvas from '../canvas/GameCanvas';
+import { GetAllPetsFetcher } from '../pet-api/GetAllPetsFetcher';
 
 const GameApp = () => {
     const context = useContext(IdentityContext) as IdentityContextType;
@@ -12,6 +13,7 @@ const GameApp = () => {
             <h1>hello {context.name}</h1>
             <GameCanvas />
             <MyPetsFetcher />
+            <GetAllPetsFetcher />
         </div>
     )
 }
