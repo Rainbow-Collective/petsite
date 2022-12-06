@@ -1,12 +1,16 @@
 import React, { useContext, useEffect, useState } from 'react'
 import HatchPetForm from './HatchPetForm'
 import ShowPets from '../game/ShowPets'
-import { PetInfo } from "../types"
+import { AllPet, PetInfo } from "../types"
+import PetCard from '../game/PetCard'
 
 export const GetAllPetsFetcher = () => {
 
     // const [petName, setPetName] = useState("");
-    const [allPets, setAllPets] = useState([] as PetInfo[]);
+    const [allPets, setAllPets] = useState([] as AllPet[]);
+
+    console.log({ allPets })
+
     useEffect(() => {
 
 
@@ -16,22 +20,25 @@ export const GetAllPetsFetcher = () => {
                 if ("error" in petInfo) {
                     return
                 }
-                setAllPets([petInfo])
+                setAllPets(petInfo)
             })
             .catch(() => setAllPets([]))
     }, [])
 
-    console.log({ allPets })
-    // if (!allPets || allPets.length === 0) {
-    //     return (<div>
-    //         <p>u need to hatch a pet</p>
-    //         <HatchPetForm
-    //             petName={petName}
-    //             setPetName={setPetName}
-    //         />
-    //     </div>
-    //     )
-    // }
+    if (!allPets || allPets.length === 0) {
+        return (<div>
+            No pets were found in the world. This is an error, and we're looking into it. Thanks for your patience!
+        </div>
+        )
+    }
+    else {
+        //this <> syntax is a react fragment. it is not rendered in the DOM a normal div but will be evaluated as HTML. technically more performant
+        return (<>
+            {allPets.map((pet) => <PetCard key={`pet${pet.id}`} pet={pet} />
+            )}
+        </>)
+    }
+
 
     return null
 }

@@ -55,4 +55,23 @@ export type PetInfo = {
         height: number
     }
 
+
+}
+
+export type AllPet = {
+    attention: number | null
+    diet: string | null
+    height: number
+    hunger: number
+    id: number
+    name: string
+    species: string | null
+    sprite: number
+    weight: number
+}
+
+
+export type AllPetsResponse = {
+
+
 }

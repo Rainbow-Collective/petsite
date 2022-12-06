@@ -25,7 +25,7 @@ export default function Navbar() {
                 <NavLink to="/"><button className="p-2 hover:bg-slate-400 ">[Home]</button></NavLink>
                 {/* <NavLink to="/account"><button className="p-2 hover:bg-slate-400">Account</button></NavLink> */}
                 {/* <NavLink to="#"><button className="p-2 hover:bg-slate-400">Visit Pets</button></NavLink> */}
-                {amIloggedIn ? seePetsButton : logInButton}
+                {amIloggedIn ? seePetsButton : null}
                 {amIloggedIn ? logoutButton : logInButton}
             </div>
         </nav>

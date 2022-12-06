@@ -9,6 +9,7 @@ import LoginOrSignUp from './components/authentication/LoginOrSignUp';
 import { IdentityContext } from './context/identityContext';
 import { IdentityContextType } from './components/types';
 import GameApp from './components/game/GameApp';
+import { GetAllPetsFetcher } from './components/pet-api/GetAllPetsFetcher';
 
 
 function App() {
@@ -41,6 +42,9 @@ function App() {
                   </Route>
                   <Route path="/Play">
                     <GameApp />
+                  </Route>
+                  <Route path="/allpets">
+                    <GetAllPetsFetcher />
                   </Route>
                   <Route path="/">
                     <h1>Default Page</h1>
