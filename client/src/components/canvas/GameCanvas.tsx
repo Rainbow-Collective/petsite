@@ -69,10 +69,9 @@ const GameCanvas = () => {
 
 
     return (
-        <div>GameCanvas
-
+        <div className="border-gray-600 border" >
             <canvas ref={canvasRef} width={400} height={600} />
-        </div>
+        </div >
     )
 }
 

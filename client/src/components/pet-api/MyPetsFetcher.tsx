@@ -3,7 +3,7 @@ import HatchPetForm from './HatchPetForm'
 import ShowPets from '../game/ShowPets'
 import { PetInfo } from "../types"
 
-export const ShowPetsFetcher = () => {
+export const MyPetsFetcher = () => {
 
     const [petName, setPetName] = useState("");
     const [myPets, setMyPets] = useState([] as PetInfo[]);
