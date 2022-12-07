@@ -4,15 +4,21 @@ import './styles/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { IdentityProvider } from './context/identityContext';
+import { PetInfoProvider } from './context/petInfoContext';
+import { PetNameProvider } from './context/petNameContext';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <IdentityProvider>
-      <App />
-    </IdentityProvider >
+    <PetNameProvider>
+      <PetInfoProvider>
+        <IdentityProvider>
+          <App />
+        </IdentityProvider >
+      </PetInfoProvider>
+    </PetNameProvider>
   </React.StrictMode>
 );
 
