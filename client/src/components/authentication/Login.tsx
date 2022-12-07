@@ -27,12 +27,16 @@ export default function Login() {
         })
             .then((response) => response.json())
             .then((name) => {
-                console.log({ name })
+                if ("error" in name) {
+                    alert("login failed")
+                    return
+                }
                 context.setUsername(name.user)
                 setControlledFormName(null)
                 setControlledFormPassword(null)
                 history.push("/Play");
-            });
+            })
+            .catch(() => alert("login failed"));
     }
 
     return (

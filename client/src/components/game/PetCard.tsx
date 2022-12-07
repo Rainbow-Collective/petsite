@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { PetInfoContext } from '../../context/petInfoContext';
-import { AllPet, PetInfo } from '../types'
+import { AllPet, PetInfo, PetInfoContextType } from '../types'
 
 //TODO: ask maddie and rei about how this interface worked
 interface PetCardProps {
@@ -9,7 +9,11 @@ interface PetCardProps {
 
 const PetCard = (props: PetCardProps) => {
 
-    console.log({ PetInfoContext })
+
+    const petInfoContext = useContext(PetInfoContext) as PetInfoContextType
+
+
+    console.log({ petInfoContext })
     let petSelectLink = <span>[{props.pet.name}]</span>
 
     return (

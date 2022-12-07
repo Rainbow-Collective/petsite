@@ -8,8 +8,6 @@ import { PetInfoContext } from '../../context/petInfoContext';
 export const MyPetsFetcher = () => {
 
     const petInfoContext = useContext(PetInfoContext) as PetInfoContextType
-    // const [petName, setPetName] = useState("");
-    // const [myPets, setMyPets] = useState([] as PetInfo[]);
     useEffect(() => {
 
 
@@ -23,8 +21,7 @@ export const MyPetsFetcher = () => {
             })
             .catch(() => petInfoContext.setMyPets([]))
     }, [])
-
-    console.log(petInfoContext.myPets)
+    // console.log(petInfoContext.myPets)
     if (!petInfoContext.myPets || petInfoContext.myPets.length === 0) {
         return (<div>
             <p>u need to hatch a pet</p>

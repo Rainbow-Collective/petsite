@@ -12,23 +12,30 @@ const GameCanvas = () => {
 
     //pet spritesheet
     const [pet_spriteSheet, setPet_spriteSheet] = useState(null as HTMLImageElement | null)
-    // set the pet spritesheet when the image is loaded
+
+    //background spritesheet
+    const [bg_spriteSheet, setBg_spriteSheet] = useState(null as HTMLImageElement | null)
+    // set the spritesheet when the image is loaded
     useEffect(() => {
         let image = new Image();
         // image.src = process.env.PUBLIC_URL + "/images/Cute RPG - Free/16x16/pets/Pet06_04.png";
         image.src = "/images/CuteRPG-Free/16x16/pets/Pet06_04.png";
         image.onload = () => { setPet_spriteSheet(image) }
+
+        let bgImage = new Image();
+        bgImage.src = "/images/test-bg.png"
+        bgImage.onload = () => { setBg_spriteSheet(bgImage) }
     }, [])
 
     //defining canvas and ref
     const canvasRef = useRef(null as HTMLCanvasElement | null)
 
 
-    const draw = (ctx: CanvasRenderingContext2D, spriteSheet: HTMLImageElement) => {
+    const draw = (ctx: CanvasRenderingContext2D, spriteSheet: HTMLImageElement, bg_spriteSheet: HTMLImageElement) => {
         ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height)
+        ctx.drawImage(bg_spriteSheet, 0, 0)
         ctx.fillText(`Canvas Height: ${ctx.canvas.height}`, 10, 10)
         ctx.fillText(`Canvas Width: ${ctx.canvas.width}`, 20, 20)
-
         type TestSpriteParams = {
             sheetX: number
             sheetY: number
@@ -52,8 +59,8 @@ const GameCanvas = () => {
             height: 16,
             canvasX: 30,
             canvasY: 30,
-            scaleWidth: 32,
-            scaleHeight: 32
+            scaleWidth: 16,
+            scaleHeight: 16
         }
         drawSprite(testSpriteParamsObj)
     }
@@ -61,8 +68,13 @@ const GameCanvas = () => {
     useEffect(() => {
         if (canvasRef.current !== null) {
             const context = canvasRef.current.getContext("2d");
-            if (context !== null && pet_spriteSheet !== null) {
-                draw(context, pet_spriteSheet)
+
+            if (context !== null && pet_spriteSheet !== null && bg_spriteSheet !== null) {
+                draw(context, pet_spriteSheet, bg_spriteSheet)
+            }
+            else {
+                console.log({ error: "something was not loaded in canvasref" })
+                console.log({ bg_spriteSheet })
             }
         }
     }, [draw])
@@ -70,7 +82,7 @@ const GameCanvas = () => {
 
     return (
         <div className="border-gray-600 border" >
-            <canvas ref={canvasRef} width={400} height={600} />
+            <canvas className="mx-auto" ref={canvasRef} width={600} height={600} />
         </div >
     )
 }
