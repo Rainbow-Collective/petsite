@@ -1,17 +1,17 @@
 import React, { useState } from 'react'
-import { PetInfo, PetInfoContextType } from '../components/types';
+import { PetInfo, PetNameContextType } from '../components/types';
 
 type PetNameContextProviderProps = {
     children: JSX.Element
 }
 
 
-export const PetNameContext = React.createContext<string | null>(null)
+export const PetNameContext = React.createContext<PetNameContextType | null>(null)
 
 
 export const PetNameProvider: React.FC<PetNameContextProviderProps> = ({ children }) => {
-    const [name, setPetName] = useState("");
+    const [petName, setPetName] = useState<string | null>(null);
     return (
-        <PetNameContext.Provider value={name}>{children}</PetNameContext.Provider>
+        <PetNameContext.Provider value={{ petName, setPetName }}>{children}</PetNameContext.Provider>
     )
 }

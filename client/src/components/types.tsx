@@ -19,6 +19,11 @@ export type PetInfoContextType = {
     setMyPets: Dispatcher<PetInfo[] | []>
 }
 
+export type PetNameContextType = {
+    petName: string | null
+    setPetName: Dispatcher<string | null>
+}
+
 
 //TODO: remove this after serializing out the digest
 export type PetInfo = {

@@ -4,40 +4,42 @@ import HatchPetForm from "../pet-api/HatchPetForm";
 import { Bar } from "@nivo/bar";
 import { PetActionForm } from "../pet-api/PetActionForm";
 import { IdentityContext } from "../../context/identityContext";
-import { IdentityContextType, PetInfo } from "../types";
+import { IdentityContextType, PetInfo, PetInfoContextType, PetNameContextType } from "../types";
+import { PetInfoContext } from "../../context/petInfoContext";
+import { PetNameContext } from "../../context/petNameContext";
 
 
 type Dispatcher<S> = Dispatch<SetStateAction<S>>;
 
 
-type ShowPetsProps = {
-    myPets: PetInfo[]
-    setMyPets: Dispatcher<PetInfo[]>
-}
-
-export default function ShowPets({ myPets, setMyPets }: ShowPetsProps) {
+export default function ShowPets() {
     const context = useContext(IdentityContext) as IdentityContextType;
+
+    const petNameContext = useContext(PetNameContext) as PetNameContextType
+    const petInfoContext = useContext(PetInfoContext) as PetInfoContextType
+
+
 
     const [selectedPet, setSelectedPet] = useState(0);
 
-    const [hunger, setHunger] = useState(myPets[selectedPet].pet.hunger)
-    const [attention, setAttention] = useState(myPets[selectedPet].pet.attention)
+    const [hunger, setHunger] = useState(petInfoContext.myPets[selectedPet].pet.hunger)
+    const [attention, setAttention] = useState(petInfoContext.myPets[selectedPet].pet.attention)
 
 
     //data={[{ label: 'selectedPet', hunger: 4 }, { label: 'myotherpet', hunger: 6 }]}
-    const barChartData = myPets.length > 0 ? [
+    const barChartData = petInfoContext.myPets.length > 0 ? [
         { label: 'hunger', value: hunger },
         { label: 'attention', value: attention },
-        { label: 'relationship', value: myPets[selectedPet].relationship },
-        { label: 'weight', value: myPets[selectedPet].pet.weight },
-        { label: 'height', value: myPets[selectedPet].pet.height }
+        { label: 'relationship', value: petInfoContext.myPets[selectedPet].relationship },
+        { label: 'weight', value: petInfoContext.myPets[selectedPet].pet.weight },
+        { label: 'height', value: petInfoContext.myPets[selectedPet].pet.height }
     ] : [];
-    if (myPets.length == 0) {
+    if (petInfoContext.myPets.length == 0) {
         return null;
     }
     return (<div>
         <PetActionForm
-            myPets={myPets}
+            myPets={petInfoContext.myPets}
             selectedPet={selectedPet}
             hunger={hunger}
             attention={attention}
@@ -45,7 +47,7 @@ export default function ShowPets({ myPets, setMyPets }: ShowPetsProps) {
             setAttention={setAttention}
         />
         <p>
-            this is your pet {myPets[selectedPet].pet.name}'s stats
+            this is the pet {petInfoContext.myPets[selectedPet].pet.name}'s stats
         </p>
         <Bar
             width={600}

@@ -1,5 +1,8 @@
-import React, { Dispatch, SetStateAction, useState } from 'react';
+import React, { Dispatch, SetStateAction, useContext, useState } from 'react';
 import { useHistory } from 'react-router-dom'
+import { PetInfoContext } from '../../context/petInfoContext';
+import { PetNameContext } from '../../context/petNameContext';
+import { PetInfoContextType, PetNameContextType } from '../types';
 
 type Dispatcher<S> = Dispatch<SetStateAction<S>>;
 
@@ -10,7 +13,11 @@ type HatchPetProps = {
 
 
 
-export default function HatchPetForm({ petName, setPetName }: HatchPetProps) {
+export default function HatchPetForm() {
+
+    const petNameContext = useContext(PetNameContext) as PetNameContextType
+    const petInfoContext = useContext(PetInfoContext) as PetInfoContextType
+
 
     const history = useHistory();
 
@@ -30,7 +37,7 @@ export default function HatchPetForm({ petName, setPetName }: HatchPetProps) {
                 "Content-Type": "application/json",
             },
             body: JSON.stringify({
-                name: petName,
+                name: petNameContext,
                 hunger: getNumber(),
                 attention: 5,
                 sick: false,
@@ -49,8 +56,8 @@ export default function HatchPetForm({ petName, setPetName }: HatchPetProps) {
             <input
                 type="text"
                 id="petName"
-                value={petName}
-                onChange={(event) => setPetName(event.target.value)}
+                value={petNameContext.petName ? petNameContext.petName : ""}
+                onChange={(event) => petNameContext.setPetName(event.target.value)}
             />
             <button type="submit" className='p-4 hover:bg-slate-400'>[Summon An Egg]</button>
         </form>
