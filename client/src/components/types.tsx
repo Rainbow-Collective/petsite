@@ -15,23 +15,8 @@ export type IdentityContextType = {
 }
 
 export type PetInfoContextType = {
-    id: number
-    bio: string
-    relationship?: number
-    player: {
-        id: number
-        name: string
-        password_digest: string
-    }
-    pet: {
-        id: number
-        name: string
-        hunger: number
-        attention: number
-        sick: boolean
-        weight: number
-        height: number
-    }
+    myPets: PetInfo[]
+    setMyPets: Dispatcher<PetInfo[] | []>
 }
 
 

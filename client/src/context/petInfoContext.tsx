@@ -6,12 +6,12 @@ type PetInfoContextProviderProps = {
 }
 
 
-export const PetInfoContext = React.createContext<PetInfo[] | null>(null)
+export const PetInfoContext = React.createContext<PetInfoContextType | null>(null)
 
 
 export const PetInfoProvider: React.FC<PetInfoContextProviderProps> = ({ children }) => {
     const [myPets, setMyPets] = useState([] as PetInfo[]);
     return (
-        <PetInfoContext.Provider value={myPets}>{children}</PetInfoContext.Provider>
+        <PetInfoContext.Provider value={{ myPets, setMyPets }}>{children}</PetInfoContext.Provider>
     )
 }
