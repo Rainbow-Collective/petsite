@@ -14,6 +14,7 @@ class PetsController < ApplicationController
   end
 
   #GET /mypets
+  #TODO: move this to user_pet_relationships_controller
   def mypets
     @player_owns_pet = UserPetRelationship.find_by!(user_id: session[:user_id])
     render json: @player_owns_pet

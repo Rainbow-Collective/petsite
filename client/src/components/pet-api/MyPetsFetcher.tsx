@@ -21,7 +21,8 @@ export const MyPetsFetcher = () => {
             })
             .catch(() => petInfoContext.setMyPets([]))
     }, [])
-    // console.log(petInfoContext.myPets)
+
+    console.log(petInfoContext.myPets)
     if (!petInfoContext.myPets || petInfoContext.myPets.length === 0) {
         return (<div>
             <p>u need to hatch a pet</p>
