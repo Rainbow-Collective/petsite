@@ -45,6 +45,7 @@ export type PetInfo = {
         sick: boolean
         weight: number
         height: number
+        sprite: number
     }
 
 

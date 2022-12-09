@@ -1,8 +1,22 @@
 import { setPriority } from 'os'
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useContext, useEffect, useRef, useState } from 'react'
 import { Context } from 'vm'
+import { PetInfoContext } from '../../context/petInfoContext'
+import { PetInfoContextType } from '../types'
 
 const GameCanvas = () => {
+
+    const petInfoContext = useContext(PetInfoContext) as PetInfoContextType
+    const selectedPet = petInfoContext.myPets.filter(relationship => relationship.pet.id === petInfoContext.selectedPetId)[0]
+
+    //TODO: replace this with api call
+    const petSpriteDb: Record<number, string> = {
+        3: '/images/CuteRPG-Free/16x16/pets/Pet06_04.png',
+        4: '/images/CuteRPG-Free/16x16/pets/Pet06_01.png'
+    }
+    const petSpritePath = petSpriteDb[selectedPet.pet.sprite]
+    console.log({ petSpritePath, petSpriteDb: selectedPet.pet.sprite })
+
     //public ref example
     //<img src={process.env.PUBLIC_URL + "/images/Notes_221202_103856.jpg"} className="mx-auto w-80" alt="canvas  placeholder" />
 
@@ -19,13 +33,13 @@ const GameCanvas = () => {
     useEffect(() => {
         let image = new Image();
         // image.src = process.env.PUBLIC_URL + "/images/Cute RPG - Free/16x16/pets/Pet06_04.png";
-        image.src = "/images/CuteRPG-Free/16x16/pets/Pet06_04.png";
+        image.src = petSpritePath;
         image.onload = () => { setPet_spriteSheet(image) }
 
         let bgImage = new Image();
         bgImage.src = "/images/test-bg.png"
         bgImage.onload = () => { setBg_spriteSheet(bgImage) }
-    }, [])
+    }, [petSpritePath])
 
     //defining canvas and ref
     const canvasRef = useRef(null as HTMLCanvasElement | null)

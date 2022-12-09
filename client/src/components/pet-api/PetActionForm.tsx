@@ -33,7 +33,7 @@ export const PetActionForm = ({ selectedPet, hunger, setHunger, attention, setAt
     function postPetStats() {
         postData.pet.hunger = clampValue(postData.pet.hunger);
         postData.pet.attention = clampValue(postData.pet.attention);
-        console.log({ postData })
+        // console.log({ postData })
         fetch(`/pet-action-relationship/${selectedPet.pet.id}`, {
             method: "PATCH",
             headers: {
@@ -43,7 +43,7 @@ export const PetActionForm = ({ selectedPet, hunger, setHunger, attention, setAt
         }).then((response) => {
             if (response.ok) {
                 response.json().then((newPetInfo) => {
-                    console.log({ newPetInfo });
+                    // console.log({ newPetInfo });
                     //setHunger(newPetInfo.pet.hunger)
                 });
             }

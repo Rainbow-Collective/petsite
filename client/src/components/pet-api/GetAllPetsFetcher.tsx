@@ -16,7 +16,7 @@ export const GetAllPetsFetcher = () => {
     // const [petName, setPetName] = useState("");
     const [allPets, setAllPets] = useState([] as PetInfo[]);
 
-    console.log({ allPets })
+    //console.log({ allPets })
 
     useEffect(() => {
 

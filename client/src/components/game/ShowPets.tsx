@@ -32,7 +32,7 @@ export default function ShowPets() {
         { label: 'weight', value: selectedPet.pet.weight },
         { label: 'height', value: selectedPet.pet.height }
     ] : [];
-    console.log({ hunger, attention, selectedPet, selectedPetID: petInfoContext.selectedPetId, pets: petInfoContext.myPets })
+    //console.log({ hunger, attention, selectedPet, selectedPetID: petInfoContext.selectedPetId, pets: petInfoContext.myPets })
 
     if (petInfoContext.myPets.length == 0) {
         return null;
