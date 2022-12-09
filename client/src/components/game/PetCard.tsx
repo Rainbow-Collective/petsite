@@ -9,15 +9,17 @@ interface PetCardProps {
 
 const PetCard = (props: PetCardProps) => {
 
-
     const petInfoContext = useContext(PetInfoContext) as PetInfoContextType
 
-
-    console.log({ petInfoContext })
-    let petSelectLink = <span>[{props.pet.name}]</span>
+    let petSelectLink = <button onClick={() => {
+        petInfoContext.setSelectedPetId(props.pet.id)
+    }}
+        className="block mx-auto">[{props.pet.name}]</button>
 
     return (
-        <div>[{props.pet.name}]</div>
+        <>
+            {petSelectLink}
+        </>
     )
 }
 

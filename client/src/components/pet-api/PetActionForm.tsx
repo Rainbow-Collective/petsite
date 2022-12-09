@@ -6,16 +6,14 @@ type Dispatcher<S> = Dispatch<SetStateAction<S>>;
 
 
 type PetActionFormProps = {
-    myPets: PetInfo[]
-    selectedPet: number
+    selectedPet: PetInfo
     hunger: number
     attention: number
     setHunger: Dispatcher<number>
     setAttention: Dispatcher<number>
 }
 
-export const PetActionForm = ({ myPets, selectedPet, hunger, setHunger, attention, setAttention }: PetActionFormProps) => {
-
+export const PetActionForm = ({ selectedPet, hunger, setHunger, attention, setAttention }: PetActionFormProps) => {
 
     function clampValue(boundedNumber: number) {
         return Math.min(Math.max(boundedNumber, 0), 10)
@@ -23,20 +21,20 @@ export const PetActionForm = ({ myPets, selectedPet, hunger, setHunger, attentio
 
     let postData = {
         "pet": {
-            name: myPets[selectedPet].pet.name,
+            name: selectedPet.pet.name,
             hunger: hunger,
             attention: attention
         },
         "user_pet_relationship": {
-            relationship: clampValue(myPets[selectedPet].relationship + 1)
+            relationship: clampValue(selectedPet.relationship + 1)
         }
     }
 
     function postPetStats() {
-        console.log({ postData })
         postData.pet.hunger = clampValue(postData.pet.hunger);
         postData.pet.attention = clampValue(postData.pet.attention);
-        fetch(`/pet-action-relationship/${myPets[selectedPet].pet.id}`, {
+        console.log({ postData })
+        fetch(`/pet-action-relationship/${selectedPet.pet.id}`, {
             method: "PATCH",
             headers: {
                 "Content-Type": "application/json",
@@ -45,7 +43,8 @@ export const PetActionForm = ({ myPets, selectedPet, hunger, setHunger, attentio
         }).then((response) => {
             if (response.ok) {
                 response.json().then((newPetInfo) => {
-                    console.log(newPetInfo)
+                    console.log({ newPetInfo });
+                    //setHunger(newPetInfo.pet.hunger)
                 });
             }
             else {
@@ -59,17 +58,13 @@ export const PetActionForm = ({ myPets, selectedPet, hunger, setHunger, attentio
             case 1:
                 //u fed the pet
                 // postData.hunger -= 1
-                setHunger((cur: number) => {
-                    return clampValue(cur -= 1)
-                })
+                setHunger(clampValue(hunger - 1))
                 postPetStats()
                 break;
             case 2:
                 // pay attention to the pet!!
                 // postData.attention += 1
-                setAttention((cur: number) => {
-                    return clampValue(cur += 1)
-                })
+                setAttention(clampValue(attention + 1))
                 postPetStats()
                 break;
             case 3:

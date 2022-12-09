@@ -16,7 +16,9 @@ export type IdentityContextType = {
 
 export type PetInfoContextType = {
     myPets: PetInfo[]
+    selectedPetId: number // the ?: is shorthand for number|undefined
     setMyPets: Dispatcher<PetInfo[] | []>
+    setSelectedPetId: Dispatcher<number>
 }
 
 export type PetNameContextType = {

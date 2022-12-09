@@ -73,8 +73,8 @@ const GameCanvas = () => {
                 draw(context, pet_spriteSheet, bg_spriteSheet)
             }
             else {
-                console.log({ error: "something was not loaded in canvasref" })
-                console.log({ bg_spriteSheet })
+                // console.log({ error: "something was not loaded in canvasref" })
+                // console.log({ bg_spriteSheet })
             }
         }
     }, [draw])

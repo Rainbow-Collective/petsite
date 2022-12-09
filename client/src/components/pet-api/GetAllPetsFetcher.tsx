@@ -1,10 +1,17 @@
 import React, { useContext, useEffect, useState } from 'react'
 import HatchPetForm from './HatchPetForm'
 import ShowPets from '../game/ShowPets'
-import { AllPet, PetInfo } from "../types"
+import { AllPet, PetInfo, PetInfoContextType, PetNameContextType } from "../types"
 import PetCard from '../game/PetCard'
+import { PetInfoContext } from '../../context/petInfoContext'
+import { PetNameContext } from '../../context/petNameContext'
 
 export const GetAllPetsFetcher = () => {
+
+
+    const petNameContext = useContext(PetNameContext) as PetNameContextType
+    const petInfoContext = useContext(PetInfoContext) as PetInfoContextType
+
 
     // const [petName, setPetName] = useState("");
     const [allPets, setAllPets] = useState([] as AllPet[]);

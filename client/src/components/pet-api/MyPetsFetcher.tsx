@@ -1,8 +1,9 @@
 import React, { useContext, useEffect, useState } from 'react'
 import HatchPetForm from './HatchPetForm'
 import ShowPets from '../game/ShowPets'
-import { PetInfo, PetInfoContextType } from "../types"
+import { PetInfo, PetInfoContextType, PetNameContextType } from "../types"
 import { PetInfoContext } from '../../context/petInfoContext';
+import { PetNameContext } from '../../context/petNameContext';
 
 
 export const MyPetsFetcher = () => {
@@ -22,7 +23,6 @@ export const MyPetsFetcher = () => {
             .catch(() => petInfoContext.setMyPets([]))
     }, [])
 
-    console.log(petInfoContext.myPets)
     if (!petInfoContext.myPets || petInfoContext.myPets.length === 0) {
         return (<div>
             <p>u need to hatch a pet</p>

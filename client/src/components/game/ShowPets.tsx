@@ -15,31 +15,29 @@ type Dispatcher<S> = Dispatch<SetStateAction<S>>;
 export default function ShowPets() {
     const context = useContext(IdentityContext) as IdentityContextType;
 
-    const petNameContext = useContext(PetNameContext) as PetNameContextType
     const petInfoContext = useContext(PetInfoContext) as PetInfoContextType
 
 
 
-    const [selectedPet, setSelectedPet] = useState(0);
+    // const [selectedPet, setSelectedPet] = useState(0);
 
-    const [hunger, setHunger] = useState(petInfoContext.myPets[selectedPet].pet.hunger)
-    const [attention, setAttention] = useState(petInfoContext.myPets[selectedPet].pet.attention)
-
-
+    const selectedPet = petInfoContext.myPets.find(pet => pet.id === petInfoContext.selectedPetId) ?? petInfoContext.myPets[0]
+    const [hunger, setHunger] = useState(selectedPet.pet.hunger)
+    const [attention, setAttention] = useState(selectedPet.pet.attention)
     //data={[{ label: 'selectedPet', hunger: 4 }, { label: 'myotherpet', hunger: 6 }]}
     const barChartData = petInfoContext.myPets.length > 0 ? [
         { label: 'hunger', value: hunger },
         { label: 'attention', value: attention },
-        { label: 'relationship', value: petInfoContext.myPets[selectedPet].relationship },
-        { label: 'weight', value: petInfoContext.myPets[selectedPet].pet.weight },
-        { label: 'height', value: petInfoContext.myPets[selectedPet].pet.height }
+        { label: 'relationship', value: selectedPet.relationship },
+        { label: 'weight', value: selectedPet.pet.weight },
+        { label: 'height', value: selectedPet.pet.height }
     ] : [];
+    console.log({ hunger, attention, selectedPet, id: petInfoContext.selectedPetId, pets: petInfoContext.myPets })
     if (petInfoContext.myPets.length == 0) {
         return null;
     }
     return (<div>
         <PetActionForm
-            myPets={petInfoContext.myPets}
             selectedPet={selectedPet}
             hunger={hunger}
             attention={attention}
@@ -47,7 +45,7 @@ export default function ShowPets() {
             setAttention={setAttention}
         />
         <p>
-            this is the pet {petInfoContext.myPets[selectedPet].pet.name}'s stats
+            this is the pet {selectedPet.pet.name}'s stats
         </p>
         <Bar
             width={600}
