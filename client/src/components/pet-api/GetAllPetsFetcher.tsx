@@ -14,20 +14,21 @@ export const GetAllPetsFetcher = () => {
 
 
     // const [petName, setPetName] = useState("");
-    const [allPets, setAllPets] = useState([] as AllPet[]);
+    const [allPets, setAllPets] = useState([] as PetInfo[]);
 
     console.log({ allPets })
 
     useEffect(() => {
 
 
-        fetch("/pets")
+        fetch("/user_pet_relationships")
             .then((response) => response.json())
             .then((petInfo) => {
                 if ("error" in petInfo) {
                     return
                 }
                 setAllPets(petInfo)
+                petInfoContext.setMyPets(petInfo)
             })
             .catch(() => setAllPets([]))
     }, [])
@@ -41,7 +42,7 @@ export const GetAllPetsFetcher = () => {
     else {
         //this <> syntax is a react fragment. it is not rendered in the DOM a normal div but will be evaluated as HTML. technically more performant
         return (<>
-            {allPets.map((pet) => <PetCard key={`pet${pet.id}`} pet={pet} />
+            {allPets.map((pet) => <PetCard key={`pet${pet.id}`} relationship={pet} />
             )}
         </>)
     }

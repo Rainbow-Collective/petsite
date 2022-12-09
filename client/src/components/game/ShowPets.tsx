@@ -20,8 +20,8 @@ export default function ShowPets() {
 
 
     // const [selectedPet, setSelectedPet] = useState(0);
+    const selectedPet = petInfoContext.myPets.filter(relationship => relationship.pet.id === petInfoContext.selectedPetId)[0]
 
-    const selectedPet = petInfoContext.myPets.find(pet => pet.id === petInfoContext.selectedPetId) ?? petInfoContext.myPets[0]
     const [hunger, setHunger] = useState(selectedPet.pet.hunger)
     const [attention, setAttention] = useState(selectedPet.pet.attention)
     //data={[{ label: 'selectedPet', hunger: 4 }, { label: 'myotherpet', hunger: 6 }]}
@@ -32,7 +32,8 @@ export default function ShowPets() {
         { label: 'weight', value: selectedPet.pet.weight },
         { label: 'height', value: selectedPet.pet.height }
     ] : [];
-    console.log({ hunger, attention, selectedPet, id: petInfoContext.selectedPetId, pets: petInfoContext.myPets })
+    console.log({ hunger, attention, selectedPet, selectedPetID: petInfoContext.selectedPetId, pets: petInfoContext.myPets })
+
     if (petInfoContext.myPets.length == 0) {
         return null;
     }

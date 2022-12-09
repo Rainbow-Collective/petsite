@@ -11,16 +11,21 @@ export const MyPetsFetcher = () => {
     const petInfoContext = useContext(PetInfoContext) as PetInfoContextType
     useEffect(() => {
 
+        if (!petInfoContext.selectedPetId) {
 
-        fetch("/mypets")
-            .then((response) => response.json())
-            .then((petInfo) => {
-                if ("error" in petInfo) {
-                    return
-                }
-                petInfoContext.setMyPets([petInfo])
-            })
-            .catch(() => petInfoContext.setMyPets([]))
+            fetch("/mypets")
+                .then((response) => response.json())
+                .then((petInfo) => {
+                    if ("error" in petInfo) {
+                        return
+                    }
+                    petInfoContext.setMyPets([petInfo])
+                    petInfoContext.setSelectedPetId(petInfo.pet.id)
+
+                })
+                .catch(() => petInfoContext.setMyPets([]))
+        }
+
     }, [])
 
     if (!petInfoContext.myPets || petInfoContext.myPets.length === 0) {
@@ -31,6 +36,6 @@ export const MyPetsFetcher = () => {
         )
     }
 
-    return petInfoContext.myPets.length > 0 ? (<ShowPets />) : <p>loading</p>
+    return (petInfoContext.myPets.length > 0 && petInfoContext.selectedPetId) ? (<ShowPets />) : <p>loading</p>
 }
 
