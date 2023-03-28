@@ -1,9 +1,8 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
+    "pets": [
+      { "id": 1, "name": "json", "owner": "server" }
     ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
+    "users": [
+      { "id": 1, "name": "ashton" }
+    ]
   }

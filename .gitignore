@@ -4,3 +4,4 @@ log/*
 postgres/*
 *.DS_Store
 .DS_Store
+.vscode
