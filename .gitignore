@@ -6,3 +6,4 @@ postgres/*
 .DS_Store
 .vscode
 .dockerignore
+node_modules/*
