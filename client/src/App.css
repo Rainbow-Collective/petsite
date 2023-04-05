@@ -1,3 +1,36 @@
+
+:root{
+--main-text-color: 193722;
+
+}
+
+.nav-header {
+  background-color: hsl(66, 86%, 77%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--main-text-color);
+}
+a.nav-link:link {
+  color: var(--main-text-color);
+  font-weight: bolder;
+  text-decoration: none;
+}
+a.nav-link:visited {
+  color: var(--main-text-color);
+  font-weight: lighter;
+}
+a.nav-link:hover {
+  color: var(--main-text-color);
+  text-decoration:underline;
+}
+
+/*
+Generated App.css
+*/
 .App {
   text-align: center;
 }
