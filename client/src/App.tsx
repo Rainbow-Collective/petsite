@@ -4,8 +4,12 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header className="app-body">
-        <div id="left-bar" className="unblock w20">
+      <div className="app-body">
+        <header className="navigation">
+          <h1>TGOTM</h1>
+          <h2>The Guild of the Magi</h2>
+        </header>
+        <div id="left-bar" className="w20">
           <div id="inventory">
             <h1>Inventory </h1>
             <ul>
@@ -23,7 +27,7 @@ function App() {
             </ul>
           </div>
         </div>
-        <div id="center-space" className="unblock w60">
+        <div id="center-space" className="w60">
           <div id="game-area">
             <h1>This is where the game will be</h1>
             <p>
@@ -39,6 +43,7 @@ function App() {
             </p>
           </div>
           <div id="game-interaction-area">
+            <h3> Game Interaction area</h3>
             <p>
               NPC: Merletti sacchettoni cavatelli spirali mezze penne cuscussu
               sagnarelli riccioli pici ziti pansotti scialatelli farfalline orzo
@@ -51,8 +56,9 @@ function App() {
             </p>
           </div>
         </div>
-        <div id="right-bar" className="unblock w20">
+        <div id="right-bar" className="w20">
           <div id="how-to-play">
+            <h3>Tutorial, Lore, Information area</h3>
             <p>
               Tagliatelle pici spaghettini stelle strapponi tortelloni mafalde
               rigatoncini mezzani lasagna gemelli. Tuffoli pasta al ceppo
@@ -110,7 +116,7 @@ function App() {
             </ul>
           </div>
         </div>
-      </header>
+      </div>
     </div>
   );
 }
