@@ -1,6 +1,7 @@
 /*GENERAL TOOLS*/
 :root {
-  --main-text-color: 193722;
+  /* --main-text-color: 193722; */
+  --main-text-color: #eee;
   --main-text-size: calc(10px + 2vmin);
 
 }
@@ -23,7 +24,7 @@ header {
 
 .app-body {
   background-color: hsl(66, 86%, 77%);
-  background-image: url("/petsite-assets/backgrounds/-clasticartistic-_6000-4000px_texture (93).jpeg");
+  background-image: url("../src/petsite-assets/backgrounds/-clasticartistic-_6000-4000px_texture\ \(93\).jpeg");
   min-height: 100vh;
   display: grid;
   flex-direction: column;
