@@ -10,4 +10,5 @@ node_modules/*
 node_modules/@*
 *node_modules/*
 *node_modules/@*
-*petsite-assets/*
+client/public/petsite-assets
+client/public/petsite-assets/*
