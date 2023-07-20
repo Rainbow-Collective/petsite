@@ -2,29 +2,17 @@ import React from "react";
 import "./App.css";
 import NavHeader from "./navigation/NavHeader";
 import Inventory from "./player/Inventory";
+import VisualGameArea from "./environment/VisualGameArea";
 function App() {
   return (
     <div className="App">
       <div className="app-body">
-      <NavHeader />
+        <NavHeader />
         <div id="left-bar" className="w20">
           <Inventory />
-        N</div>
+        </div>
         <div id="center-space" className="w60">
-          <div id="game-area">
-            <h1>This is where the game will be</h1>
-            <p>
-              Grattoni strapponi champanelle ziti spaghetti alla chitarra
-              tortellini picchiarelli stringozzi tripoline cappelli da chef.
-              Acini di pepe sedani trofie cappelli da chef stringozzi mandala
-              rigatoni cappelletti cavatappi ferrazzuoli pastina canederli
-              rustiche. Gramigne fileja fainelle fregula penne champanelle
-              mezzelune cappelli da chef egg barley pansotti grano conchiglioni
-              ravioli sorprese macaroni quadrettini canederli. Lasagna gemelli
-              ravioli spirali strapponi bavette creste di galli mandala
-              cannelloni grattini radiatori fagioloni casarecce.
-            </p>
-          </div>
+          <VisualGameArea />
           <div id="game-interaction-area">
             <h3> Game Interaction area</h3>
             <p>
@@ -37,7 +25,7 @@ function App() {
                 <li>[Yes]</li> <li>[Maybe]</li> <li>[No]</li>
               </ul>
             </p>
-          </div>
+            V</div>
         </div>
         <div id="right-bar" className="w20">
           <div id="how-to-play">
