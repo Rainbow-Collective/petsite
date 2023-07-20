@@ -1,29 +1,14 @@
 import React from "react";
 import "./App.css";
 import NavHeader from "./navigation/NavHeader";
-
+import Inventory from "./player/Inventory";
 function App() {
   return (
     <div className="App">
       <div className="app-body">
       <NavHeader />
         <div id="left-bar" className="w20">
-          <div id="inventory">
-            <h1>Inventory </h1>
-            <ul>
-              <li> Food </li>
-              <li> Cute hat </li>
-              <li> water bottle </li>
-              <li> Stickers </li>
-            </ul>
-            <h1>Pets </h1>
-            <ul>
-              <li> Tea Hamster </li>
-              <li> Moss Ball </li>
-              <li> Sooty Cat </li>
-              <li> Salamander (flying)</li>
-            </ul>
-          </div>
+          <Inventory />
         N</div>
         <div id="center-space" className="w60">
           <div id="game-area">
