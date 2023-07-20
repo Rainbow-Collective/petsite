@@ -1,14 +1,12 @@
 import React from "react";
 import "./App.css";
+import NavHeader from "./navigation/NavHeader";
 
 function App() {
   return (
     <div className="App">
       <div className="app-body">
-        <header className="navigation">
-          <h1>TGOTM</h1>
-          <h2>The Guild of the Magi</h2>
-        </header>
+      <NavHeader />
         <div id="left-bar" className="w20">
           <div id="inventory">
             <h1>Inventory </h1>
@@ -26,7 +24,7 @@ function App() {
               <li> Salamander (flying)</li>
             </ul>
           </div>
-        </div>
+        N</div>
         <div id="center-space" className="w60">
           <div id="game-area">
             <h1>This is where the game will be</h1>
