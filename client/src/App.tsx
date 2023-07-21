@@ -7,6 +7,7 @@ import InteractiveGameArea from "./navigation/interaction/InteractiveGameArea";
 import Lore from "./navigation/lore/Lore";
 import ExternalLinks from "./navigation/ExternalLinks";
 function App() {
+  console.log(new (AuthIdentityContext)())
   return (
     <div className="App">
       <div className="app-body">
@@ -28,12 +29,20 @@ function App() {
 }
 
 export class AuthIdentityContext {
-  //may want to move this later TODO ? 
+  //TODO: replace with AuthJS 
+  // https://authjs.dev/guides/basics/callbacks
   //readonly from https://www.typescriptlang.org/docs/handbook/2/classes.html
   readonly connection: string;
+  playerUserName: string;
+  playerPassPhrase: string;
+  playerID: number;
 
   constructor() {
-    this.connection = "http://localhost:3000/petsite"
+    this.connection = "http://localhost:3000/petsite";
+    this.playerUserName = "player undefined";
+    this.playerPassPhrase = "passphrase undefined";
+    this.playerID = 0.1;
+
   }
 }
 
