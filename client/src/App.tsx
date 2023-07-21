@@ -27,4 +27,14 @@ function App() {
   );
 }
 
+export class AuthIdentityContext {
+  //may want to move this later TODO ? 
+  //readonly from https://www.typescriptlang.org/docs/handbook/2/classes.html
+  readonly connection: string;
+
+  constructor() {
+    this.connection = "http://localhost:3000/petsite"
+  }
+}
+
 export default App;
